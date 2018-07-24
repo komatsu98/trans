@@ -1,12 +1,12 @@
 # Những điều mà việc học lập trình thực sự dạy tôi.
 
-Tôi phải thừa nhận điều này. Tôi yêu thích lập trình. Nhưng không phải lúc nào cũng theo cách này. Thực ra, tôi là???
+Tôi phải thừa nhận điều này. Tôi yêu thích lập trình. Nhưng không phải lúc nào cũng theo cách này. Thực ra, tôi hoàn toàn sáo rỗng.
 
 Tôi chỉ bắt đầu thích thú lập trình sau khi đã gắn liền với nó một khoảng thời gian rất dài đến mức tôi phải bắt đầu học cách sử dụng thuần thục nó.
 
 Để cho rõ ràng, lập trình là thứ duy nhất tôi từng làm mà phần lớn thời gian là "thất bại". Code không chạy là chuyện thường, và việc sửa code, tìm lỗi, và xây dựng một cấu trúc để có thể hoạt động mượt mà đòi hỏi sự kiên nhẫn cực kì cao, sự tìm tòi, tập trung và kiên trì. Tuy nhiên những thứ mà bạn học được sẽ khiến bạn tiến bộ.
 
-Khi lớn lên, ta đón nhận những niềm tin làm bản thân nhụt chí. Thái độ và sự mong đợi của chúng ta bắt đầu tự giới hạn, thường là theo một cách vô thức. Ngay cả khi tâm thức ta chấp nhận Khoa học của sự Khả biến thần kinh, thì những niềm tin ở tiềm thức vẫn không thế đồng hóa kiến thức này. Trên thực tế, chúng ta thậm chí không ý thức được chuỗi các xử lí chạy qua hệ thần kinh, về lí do tại sao ta sẽ không đạt được những kĩ năng hay kiến thức mới.   
+Khi lớn lên, ta đón nhận những niềm tin làm bản thân nhụt chí. Thái độ và sự mong đợi của chúng ta bắt đầu tự giới hạn, thường là theo một cách vô thức. Ngay cả khi tâm thức ta chấp nhận Khoa học của sự Khả biến thần kinh (não bộ của ta luôn thay đổi), thì những niềm tin ở tiềm thức vẫn không thế tiếp nhận kiến thức này. Trên thực tế, chúng ta thậm chí không ý thức được chuỗi các xử lí chạy qua hệ thần kinh, về lí do tại sao ta sẽ không đạt được những kĩ năng hay kiến thức mới.   
 
 Bạn sẽ công nhận những điều này:
 
@@ -19,7 +19,7 @@ Bạn sẽ công nhận những điều này:
 *   Bạn phải trở thành một kẻ mọt sách / thiên tài / xuất chúng
 *   Bạn hẳn đã có một nỗi đôi chút băn khoăn / Tôi không phải ‘loại’ đó. 
 
-Nhiều năm qua tôi đã nghĩ rằng bạn phải thông minh tuyệt đỉnh để trở thành lập trình viên. Cứ như là siêu năng lực về trí thông minh vậy. Đó chỉ là khi tôi đọc về Jack Dorsey, Elon Musk, Bill Gates, Steve Wozniak, và nhiều người khác đang tự học, như “trẻ con”, ở cái thời kì “tiền – Internet” mà tôi bắt đầu nghĩ - ???, như thế không tính. Nếu những người này có thể tự học, như những đứa trẻ, khi mà tất cả những gì họ có là các dự án ở trường và những bản hướng dẫn sử dụng đã cũ, vậy thì đây không phải là do thiên tài bẩm sinh. Đây là nỗ lực kiên trì, và thời gian mà họ bỏ ra.
+Nhiều năm qua tôi đã nghĩ rằng bạn phải thông minh tuyệt đỉnh để trở thành lập trình viên. Cứ như là siêu năng lực về trí thông minh vậy. Chỉ là khi tôi đọc về Jack Dorsey, Elon Musk, Bill Gates, Steve Wozniak, và nhiều người khác đang tự học, như “trẻ con”, ở cái thời kì “tiền – Internet” mà tôi bắt đầu nghĩ - ???, như thế không tính. Nếu những người này có thể tự học, như những đứa trẻ, khi mà tất cả những gì họ có là các dự án ở trường và những bản hướng dẫn sử dụng đã cũ, vậy thì đây không phải là do thiên tài bẩm sinh. Đây là nỗ lực kiên trì, và thời gian mà họ bỏ ra.
 
 Tôi đã bắt đầu tìm tòi nhiều hơn về điều này, và nhận ra rằng rất nhiều lập trình viên là tự học, và không cho rằng bản thân họ có tài năng đặc biệt. Như tất cả các kĩ năng khác, có những người ngoại lệ là tài năng bẩm sin. Nhưng họ chỉ là những ngoại lệ. Những người giỏi và vĩ đại chỉ là luôn làm đi làm lại, cho đến khi họ đủ giỏi để làm những gì họ muốn.
 
