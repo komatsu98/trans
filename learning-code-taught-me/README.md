@@ -6,7 +6,7 @@ Tôi chỉ bắt đầu thích thú lập trình sau khi đã gắn liền với
 
 Để cho rõ ràng, lập trình là thứ duy nhất tôi từng làm mà phần lớn thời gian là "thất bại". Code không chạy là chuyện thường, và việc sửa code, tìm lỗi, và xây dựng một cấu trúc để có thể hoạt động mượt mà đòi hỏi sự kiên nhẫn cực kì cao, sự tìm tòi, tập trung và kiên trì. Tuy nhiên những thứ mà bạn học được sẽ khiến bạn tiến bộ.
 
-Khi lớn lên, ta đón nhận những niềm tin làm bản thân nhụt chí. Thái độ và sự mong đợi của chúng ta bắt đầu tự giới hạn, thường là theo một cách vô thức. Ngay cả khi tâm thức ta chấp nhận Khoa học của sự Khả biến thần kinh (não bộ của ta luôn thay đổi), thì những niềm tin ở tiềm thức vẫn không thế tiếp nhận kiến thức này. Trên thực tế, chúng ta thậm chí không ý thức được chuỗi các xử lí chạy qua hệ thần kinh, về lí do tại sao ta sẽ không đạt được những kĩ năng hay kiến thức mới.   
+Khi lớn lên, ta đón nhận những niềm tin làm bản thân nhụt chí. Thái độ và sự mong đợi của chúng ta bắt đầu tự giới hạn, thường là theo một cách vô thức. Ngay cả khi tâm thức ta chấp nhận Khoa học của sự Khả biến thần kinh (não bộ của ta luôn thay đổi), thì những niềm tin ở tiềm thức vẫn không thế tiếp thu kiến thức này. Trên thực tế, chúng ta thậm chí không ý thức được chuỗi các xử lí chạy qua hệ thần kinh, về lí do tại sao ta sẽ không đạt được những kĩ năng hay kiến thức mới.   
 
 Bạn sẽ công nhận những điều này:
 
@@ -21,9 +21,9 @@ Bạn sẽ công nhận những điều này:
 
 Nhiều năm qua tôi đã nghĩ rằng bạn phải thông minh tuyệt đỉnh để trở thành lập trình viên. Cứ như là siêu năng lực về trí thông minh vậy. Chỉ là khi tôi đọc về Jack Dorsey, Elon Musk, Bill Gates, Steve Wozniak, và nhiều người khác đang tự học, như “trẻ con”, ở cái thời kì “tiền – Internet” mà tôi bắt đầu nghĩ - ???, như thế không tính. Nếu những người này có thể tự học, như những đứa trẻ, khi mà tất cả những gì họ có là các dự án ở trường và những bản hướng dẫn sử dụng đã cũ, vậy thì đây không phải là do thiên tài bẩm sinh. Đây là nỗ lực kiên trì, và thời gian mà họ bỏ ra.
 
-Tôi đã bắt đầu tìm tòi nhiều hơn về điều này, và nhận ra rằng rất nhiều lập trình viên là tự học, và không cho rằng bản thân họ có tài năng đặc biệt. Như tất cả các kĩ năng khác, có những người ngoại lệ là tài năng bẩm sin. Nhưng họ chỉ là những ngoại lệ. Những người giỏi và vĩ đại chỉ là luôn làm đi làm lại, cho đến khi họ đủ giỏi để làm những gì họ muốn.
+Tôi đã bắt đầu tìm tòi nhiều hơn về điều này, và nhận ra rằng rất nhiều lập trình viên là tự học, và không cho rằng bản thân họ có tài năng đặc biệt. Như tất cả các kĩ năng khác, có những người ngoại lệ là tài năng bẩm sinh. Nhưng họ chỉ là những ngoại lệ. Những người giỏi và vĩ đại chỉ là luôn làm đi làm lại, cho đến khi họ đủ giỏi để làm những gì họ muốn.
 
-Tôi đã thấy một ví dụ. Là một “luật sư bào chữa”, tôi được bảo rằng “bạn phải thật thông minh để trở thành luật sư”. Tôi phản đối. Nếu bạn suy nghĩ về điều đó, tôi chắc chắn rằng bạn đã gặp những người thông minh và cả những người không quá thông minh trong suốt cuộc đời mình, và một cách bất ngờ, trong cùng một chằng đường đời. Và mặt khác, một vài người bạn cho là phải thông minh để làm những gì họ làm hóa ra lại là những người rất bình thường. 
+Tôi đã thấy một ví dụ. Là một “luật sư bào chữa”, tôi được bảo rằng “bạn phải thật thông minh để trở thành luật sư”. Tôi phản đối. Nếu bạn suy nghĩ về điều đó, tôi chắc chắn rằng bạn đã gặp những người thông minh và cả những người không quá thông minh trong suốt cuộc đời mình, và một cách bất ngờ, trong cùng một chặng đường đời. Và mặt khác, một vài người bạn cho là phải thông minh để làm những gì họ làm hóa ra lại là những người rất bình thường. 
 
 Một số nhân vật lớn nhất trong lịch sử của chúng ta cố khẳng định rằng họ chỉ là những người bình thường đưa ra những quyết định và lựa chọn phi thường mà thôi. Những người đáng chú ý thường làm những điều không đáng kể và những người không đáng kể thường làm những điều đáng chú ý.
 
@@ -59,7 +59,7 @@ Bạn có thể lấy lại nó. Và trở nên tốt hơn theo thời gian.
 
 **Chúng ta thường đánh giá bên trong chúng ta bằng vẻ bên ngoài của người khác**
 
-Ta so sánh những suy nghĩ và cảm giác sâu kín với cách mà những người khác **thể hiện ở bên ngoài**. Trong một thế giới được nhìn qua những bộ lọc trên Instagram, nó sẽ khiến tất cả chúng ta cảm thấy kém cỏi, béo phì, xấu xí, ngu ngốc và nghèo khó.  
+Ta so sánh những suy nghĩ và cảm xúc tận đáy lòng với cách mà những người khác **thể hiện ở bên ngoài**. Trong một thế giới được nhìn qua những bộ lọc trên Instagram, nó sẽ khiến tất cả chúng ta cảm thấy kém cỏi, béo phì, xấu xí, ngu ngốc và nghèo khó.  
 
 Thực tế thì niềm tin rằng nó dễ dàng hơn với những người khác rất khó tránh, đến nỗi thậm chí gia đình thân thiết nhất với tôi cũng cho rằng tôi “có động lực một cách tự nhiên”. 😉 
 
@@ -86,7 +86,7 @@ Bây giờ hãy cùng nói về những mong đợi bạn có thể có nhưng l
 
 #### Mong đợi sai lầm #1: Nó sẽ trở nên dễ dàng hơn
 
-Vâng. Nhưng chỉ nếu bạn đã **ngừng** đẩy bạn thân tiến lên. Nếu bạn đang thấy nó dễ dàng, thì đó là bởi vì bạn đang ở giẫm chân tại chỗ. Điều đó chắc chắn xảy ra. Chỉ là đừng dừng ở đó. Hãy tiến lên.
+Vâng. Nhưng chỉ khi bạn đã **ngừng** thúc đẩy bạn thân tiến lên. Nếu bạn đang thấy nó dễ dàng, thì đó là bởi vì bạn đang ở giẫm chân tại chỗ. Điều đó chắc chắn xảy ra. Chỉ là đừng dừng ở đó. Hãy tiến lên.
 
 #### Mong đợi sai lầm #2: Nó sẽ xảy ra nhanh
 
