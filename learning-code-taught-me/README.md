@@ -1,110 +1,110 @@
-# Nh?ng di?u m� vi?c h?c l?p tr�nh th?c s? d?y t�i.
+# Những điều mà việc học lập trình thực sự dạy tôi.
 
-T�i ph?i th?a nh?n di?u n�y. T�i y�u th�ch l?p tr�nh. Nhung kh�ng ph?i l�c n�o cung theo c�ch n�y. Th?c ra, t�i l�???
+Tôi phải thừa nhận điều này. Tôi yêu thích lập trình. Nhưng không phải lúc nào cũng theo cách này. Thực ra, tôi hoàn toàn sáo rỗng.
 
-T�i ch? b?t d?u th�ch th� l?p tr�nh sau khi d� g?n li?n v?i n� m?t kho?ng th?i gian r?t d�i d?n m?c t�i ph?i b?t d?u h?c c�ch s? d?ng thu?n th?c n�.
+Tôi chỉ bắt đầu thích thú lập trình sau khi đã gắn liền với nó một khoảng thời gian rất dài đến mức tôi phải bắt đầu học cách sử dụng thuần thục nó.
 
-�? cho r� r�ng, l?p tr�nh l� th? duy nh?t t�i t?ng l�m m� ph?n l?n th?i gian l� "th?t b?i". Code kh�ng ch?y l� chuy?n thu?ng, v� vi?c s?a code, t�m l?i, v� x�y d?ng m?t c?u tr�c d? c� th? ho?t d?ng mu?t m� d�i h?i s? ki�n nh?n c?c k� cao, s? t�m t�i, t?p trung v� ki�n tr�. Tuy nhi�n nh?ng th? m� b?n h?c du?c s? khi?n b?n ti?n b?.
+Để cho rõ ràng, lập trình là thứ duy nhất tôi từng làm mà phần lớn thời gian là "thất bại". Code không chạy là chuyện thường, và việc sửa code, tìm lỗi, và xây dựng một cấu trúc để có thể hoạt động mượt mà đòi hỏi sự kiên nhẫn cực kì cao, sự tìm tòi, tập trung và kiên trì. Tuy nhiên những thứ mà bạn học được sẽ khiến bạn tiến bộ.
 
-Khi l?n l�n, ta d�n nh?n nh?ng ni?m tin l�m b?n th�n nh?t ch�. Th�i d? v� s? mong d?i c?a ch�ng ta b?t d?u t? gi?i h?n, thu?ng l� theo m?t c�ch v� th?c. Ngay c? khi t�m th?c ta ch?p nh?n Khoa h?c c?a s? Kh? bi?n th?n kinh, th� nh?ng ni?m tin ? ti?m th?c v?n kh�ng th? d?ng h�a ki?n th?c n�y. Tr�n th?c t?, ch�ng ta th?m ch� kh�ng � th?c du?c chu?i c�c x? l� ch?y qua h? th?n kinh, v? l� do t?i sao ta s? kh�ng d?t du?c nh?ng ki nang hay ki?n th?c m?i.   
+Khi lớn lên, ta đón nhận những niềm tin làm bản thân nhụt chí. Thái độ và sự mong đợi của chúng ta bắt đầu tự giới hạn, thường là theo một cách vô thức. Ngay cả khi tâm thức ta chấp nhận Khoa học của sự Khả biến thần kinh (não bộ của ta luôn thay đổi), thì những niềm tin ở tiềm thức vẫn không thế tiếp nhận kiến thức này. Trên thực tế, chúng ta thậm chí không ý thức được chuỗi các xử lí chạy qua hệ thần kinh, về lí do tại sao ta sẽ không đạt được những kĩ năng hay kiến thức mới.   
 
-B?n s? c�ng nh?n nh?ng di?u n�y:
+Bạn sẽ công nhận những điều này:
 
-*   B?n kh�ng th? d?y m?t ch� ch� gi� nh?ng tr� m?i
-*   Ch? tr? con m?i h?c nh?ng th? m?i m?t c�ch nhanh ch�ng
-*   Th?t qu� kh�
-*   T�i d� t?ng gh�t tru?ng trung h?c/d?i h?c
-*   S? t?t hon khi g?n b� v?i nh?ng th? b?n gi?i hon l� h?c nh?ng di?u m?i m?.
-*   T�i kh�ng c� th?i gian
-*   B?n ph?i tr? th�nh m?t k? m?t s�ch / thi�n t�i / xu?t ch�ng
-*   B?n h?n d� c� m?t n?i d�i ch�t ban khoan / T�i kh�ng ph?i �lo?i� d�. 
+*   Bạn không thể dạy một chú chó già những trò mới
+*   Chỉ trẻ con mới học những thứ mới một cách nhanh chóng
+*   Thật quá khó
+*   Tôi đã từng ghét trường trung học/đại học
+*   Sẽ tốt hơn khi gắn bó với những thứ bạn giỏi hơn là học những điều mới mẻ.
+*   Tôi không có thời gian
+*   Bạn phải trở thành một kẻ mọt sách / thiên tài / xuất chúng
+*   Bạn hẳn đã có một nỗi đôi chút băn khoăn / Tôi không phải ‘loại’ đó. 
 
-Nhi?u nam qua t�i d� nghi r?ng b?n ph?i th�ng minh tuy?t d?nh d? tr? th�nh l?p tr�nh vi�n. C? nhu l� si�u nang l?c v? tr� th�ng minh v?y. �� ch? l� khi t�i d?c v? Jack Dorsey, Elon Musk, Bill Gates, Steve Wozniak, v� nhi?u ngu?i kh�c dang t? h?c, nhu �tr? con�, ? c�i th?i k� �ti?n � Internet� m� t�i b?t d?u nghi - ???, nhu th? kh�ng t�nh. N?u nh?ng ngu?i n�y c� th? t? h?c, nhu nh?ng d?a tr?, khi m� t?t c? nh?ng g� h? c� l� c�c d? �n ? tru?ng v� nh?ng b?n hu?ng d?n s? d?ng d� cu, v?y th� d�y kh�ng ph?i l� do thi�n t�i b?m sinh. ��y l� n? l?c ki�n tr�, v� th?i gian m� h? b? ra.
+Nhiều năm qua tôi đã nghĩ rằng bạn phải thông minh tuyệt đỉnh để trở thành lập trình viên. Cứ như là siêu năng lực về trí thông minh vậy. Chỉ là khi tôi đọc về Jack Dorsey, Elon Musk, Bill Gates, Steve Wozniak, và nhiều người khác đang tự học, như “trẻ con”, ở cái thời kì “tiền – Internet” mà tôi bắt đầu nghĩ - ???, như thế không tính. Nếu những người này có thể tự học, như những đứa trẻ, khi mà tất cả những gì họ có là các dự án ở trường và những bản hướng dẫn sử dụng đã cũ, vậy thì đây không phải là do thiên tài bẩm sinh. Đây là nỗ lực kiên trì, và thời gian mà họ bỏ ra.
 
-T�i d� b?t d?u t�m t�i nhi?u hon v? di?u n�y, v� nh?n ra r?ng r?t nhi?u l?p tr�nh vi�n l� t? h?c, v� kh�ng cho r?ng b?n th�n h? c� t�i nang d?c bi?t. Nhu t?t c? c�c ki nang kh�c, c� nh?ng ngu?i ngo?i l? l� t�i nang b?m sin. Nhung h? ch? l� nh?ng ngo?i l?. Nh?ng ngu?i gi?i v� vi d?i ch? l� lu�n l�m di l�m l?i, cho d?n khi h? d? gi?i d? l�m nh?ng g� h? mu?n.
+Tôi đã bắt đầu tìm tòi nhiều hơn về điều này, và nhận ra rằng rất nhiều lập trình viên là tự học, và không cho rằng bản thân họ có tài năng đặc biệt. Như tất cả các kĩ năng khác, có những người ngoại lệ là tài năng bẩm sin. Nhưng họ chỉ là những ngoại lệ. Những người giỏi và vĩ đại chỉ là luôn làm đi làm lại, cho đến khi họ đủ giỏi để làm những gì họ muốn.
 
-T�i d� th?y m?t v� d?. L� m?t �lu?t su b�o ch?a�, t�i du?c b?o r?ng �b?n ph?i th?t th�ng minh d? tr? th�nh lu?t su�. T�i ph?n d?i. N?u b?n suy nghi v? di?u d�, t�i ch?c ch?n r?ng b?n d� g?p nh?ng ngu?i th�ng minh v� c? nh?ng ngu?i kh�ng qu� th�ng minh trong su?t cu?c d?i m�nh, v� m?t c�ch b?t ng?, trong c�ng m?t ch?ng du?ng d?i. V� m?t kh�c, m?t v�i ngu?i b?n cho l� ph?i th�ng minh d? l�m nh?ng g� h? l�m h�a ra l?i l� nh?ng ngu?i r?t b�nh thu?ng. 
+Tôi đã thấy một ví dụ. Là một “luật sư bào chữa”, tôi được bảo rằng “bạn phải thật thông minh để trở thành luật sư”. Tôi phản đối. Nếu bạn suy nghĩ về điều đó, tôi chắc chắn rằng bạn đã gặp những người thông minh và cả những người không quá thông minh trong suốt cuộc đời mình, và một cách bất ngờ, trong cùng một chằng đường đời. Và mặt khác, một vài người bạn cho là phải thông minh để làm những gì họ làm hóa ra lại là những người rất bình thường. 
 
-M?t s? nh�n v?t l?n nh?t trong l?ch s? c?a ch�ng ta c? kh?ng d?nh r?ng h? ch? l� nh?ng ngu?i b�nh thu?ng dua ra nh?ng quy?t d?nh v� l?a ch?n phi thu?ng m� th�i. Nh?ng ngu?i d�ng ch� � thu?ng l�m nh?ng di?u kh�ng d�ng k? v� nh?ng ngu?i kh�ng d�ng k? thu?ng l�m nh?ng di?u d�ng ch� �.
+Một số nhân vật lớn nhất trong lịch sử của chúng ta cố khẳng định rằng họ chỉ là những người bình thường đưa ra những quyết định và lựa chọn phi thường mà thôi. Những người đáng chú ý thường làm những điều không đáng kể và những người không đáng kể thường làm những điều đáng chú ý.
 
-R� r�ng l� nh?ng ni?m tin c?a t�i d� sai. C� th? �th�ng minh� l?i l� m?t kh�i ni?m t? gi?i h?n, b?i n� g?i ra r?ng b?n c� sinh ra v?i n� hay kh�ng. ��y l� m?t th�nh ki?n trong van h�a, m?t ni?m tin r?ng th�ng minh l� m?t thu?c t�nh c? h?u, thi�n ph�, b?m sinh, ph? qu�t. Th?c ra, th�ng minh lu�n g?n v?i m?t ki nang n�o d�, v� n� l� thang do. B?n c� th? d?t du?c n�, b?ng hu?ng di d�ng d?n c�ng v?i n? l?c ki�n tr�. 
+Rõ ràng là những niềm tin của tôi đã sai. Có thể “thông minh” lại là một khái niệm tự giới hạn, bới nó gợi ra rằng bạn có sinh ra với nó hay không. Đây là một thành kiến trong văn hóa, một niềm tin rằng thông minh là một thuộc tính cố hữu, thiên phú, bẩm sinh, phổ quát. Thực ra, thông minh luôn gắn với một kĩ năng nào đó, và nó là thang đo. Bạn có thể đạt được nó, bằng hướng đi đúng đắn cùng với nỗ lực kiên trì. 
 
-V� v?y, t�i d� roi v�o c�ng m?t quan ni?m sai l?m. T�i d� cho r?ng b?n c?n s?n s�ng s? h?u �nh?ng tr� th�ng minh� d? tr? th�nh m?t l?p tr�nh vi�n, gi?ng nhu nh?ng ph?ng do�n kh�c r?ng t�i c?n s? th�ng minh vi d?i d? du?c coi l� m?t lu?t su. 
+Vì vậy, tôi đã rơi vào cùng một quan niệm sai lầm. Tôi đã cho rằng bạn cần sẵn sàng sở hữu “những trí thông minh” để trở thành một lập trình viên, giống như những phỏng đoán khác rằng tôi cần sự thông minh vĩ đại để được coi là một luật sư. 
 
-B?n c� th? tu?ng tu?ng r?ng n?u Henry Ford, Edison, Jobs, the Wright Brothers, Disney, Einstein v� nh?ng ngu?i kh�c nghi nhu th? kh�ng? Li?u th? gi?i c?a ch�ng ta s? tr? n�n nhu th? n�o?
+Bạn có thể tưởng tượng rằng nếu Henry Ford, Edison, Jobs, the Wright Brothers, Disney, Einstein và những người khác nghĩ như thế không? Liệu thế giới của chúng ta sẽ trở nên như thế nào?
 
-Kh�ng, th?t kh�ng d�ng d? nghi v? di?u d�.
+Không, thật không đáng để nghĩ về điều đó.
 
-Thay v�o d�, h�y c�ng t?p trung v�o vi?c l�m th? n�o ch�ng ta v� hi?u h�a v� tho�t ra kh?i vi?c h?c th�ng qua m?t t? h?p nh?ng ni?m tin sai l?m, v� mong d?i sai l?m. B?ng c�ch d�, ta c� th? t? s?a ch?a b?n th�n khi ta t? l�m b?n th�n b?t l?c. T?t hon l� ch�ng ta c� th? ch?c ch?n ta kh�ng ti�m nhi?m nh?ng ni?m tin sai l?m cho b?n tr?.
+Thay vào đó, hãy cùng tập trung vào việc làm thế nào chúng ta vô hiệu hóa và thoát ra khỏi việc học thông qua một tổ hợp những niềm tin sai lầm, và mong đợi sai lầm. Bằng cách đó, ta có thể tự sửa chữa bản thân khi ta tự làm bản thân bất lực. Tốt hơn là chúng ta có thể chắc chắn ta không tiêm nhiễm những niềm tin sai lầm cho bọn trẻ.
 
-#### Ni?m tin sai l?m #1: S? th�ng minh l� s?n c�
+#### Niềm tin sai lầm #1: Sự thông minh là sẵn có
 
-Kh�ng ph?i. N� l� d?t du?c. V� v� n� lu�n l� tuong d?i n�n b?n lu�n ng?c hon m?t ai d�. V� v?y h�y ti?p t?c ph�t tri?n.
+Không phải. Nó là đạt được. Và vì nó luôn là tương đối nên bạn luôn ngốc hơn một ai đó. Vì vậy hãy tiếp tục phát triển.
 
-#### Ni?m tin sai l?m #2: B? n�o t�i kh�ng h?c nhanh nhu khi t�i gi� hon.
+#### Niềm tin sai lầm #2: Bộ não tôi không học nhanh như khi tôi già hơn.
 
-Th?c ra th� cung kh�ng sai. Tr�n th?c t?, khi b?n gi� di b?n h?c du?c c�ch �l�m sao d? h?c� t?t hon. Kh�ng gi?ng nhu co th?, t�m tr� c?a b?n ? tu?i 75 c� th? �ng ch?ng t?t hon khi ? tu?i 25. H?i Benjamin Franklin.
+Thực ra thì cũng không sai. Trên thực tế, khi bạn già đi bạn học được cách “làm sao để học” tốt hơn. Không giống như cơ thể, tâm trí của bạn ở tuổi 75 có thể áng chừng tốt hơn khi ở tuổi 25. Hỏi Benjamin Franklin.
 
-�i?u th?c s? x?y ra l� s? t?p trung, s? ch� �, s? t? tin v� k? lu?t tr? n�n m?ng manh v� b? l�ng ph� khi ta gi� di, th�ng qua vi?c thi?u luy?n t?p. ��y kh�ng ph?i l� do tu?i t�c, m� l� do ch�ng ta kh�ng c�n t?p luy?n n?a. Ta d� v� dang tr? n�n ?o gi�c tr� tu?.  
+Điều thực sự xảy ra là sự tập trung, sự chú ý, sự tự tin và kỉ luật trở nên mỏng manh và bị lãng phí khi ta già đi, thông qua việc thiếu luyện tập. Đây không phải là do tuổi tác, mà là do chúng ta không còn tập luyện nữa. Ta đã và đang trở nên ảo giác trí tuệ.  
 
-�?i v?i nhi?u ngu?i trong ch�ng ta, l?n cu?i ta th?c s? h?c di?u g� d� l� ? tru?ng d?i h?c, v� d� l� nhi?u nam v? tru?c. Ta ti?p t?c h?c nh?ng g� ta y�u th�ch, c�ch s? d?ng Facebook, l?n d�ng b�nh du?ng kh�, c�ch dang nh?ng ?nh d� du?c l?c l�n Instagram, b?i v� ta th?y ch�ng th� v?. Nhung nh?ng th? m� �ho?t d?ng� th� ta l?i thu?ng tr�nh, v� do d� m?t di s? luy?n t?p.
+Đối với nhiều người trong chúng ta, lần cuối ta thực sự học điều gì đó là ở trường đại học, và đó là nhiều năm về trước. Ta tiếp tục học những gì ta yêu thích, cách sử dụng Facebook, lặn dùng bình dưỡng khí, cách đăng những ảnh đã được lọc lên Instagram, bởi vì ta thấy chúng thú vị. Nhưng những thứ mà “hoạt động” thì ta lại thường tránh, và do đó mất đi sự luyện tập.
 
-B?n c� th? l?y l?i n�. V� tr? n�n t?t hon theo th?i gian.
+Bạn có thể lấy lại nó. Và trở nên tốt hơn theo thời gian.
 
-#### Ni?m tin sai l?m #3: N� d? d�ng hon v?i ngu?i kh�c
+#### Niềm tin sai lầm #3: Nó dễ dàng hơn với người khác
 
-�i?u n�y d?c bi?t c� h?i, b?i n� khi?n ch�ng ta c?m th?y k�m c?i v� cho�ng ng?p. T? d� g�y ch�n n?n m?t c�ch kinh kh?ng d?n n?i ta th?m ch� kh�ng th? b?t tay v�o l�m bu?c d?u ti�n. V� don gi?n l� n� kh�ng d�ng. �� ch? l� c�ch m� n� �xu?t hi?n�.  
+Điều này đặc biệt có hại, bởi nó khiến chúng ta cảm thấy kém cỏi và choáng ngợp. Từ đó gây chán nản một cách kinh khủng đến nỗi ta thậm chí không thử bắt tay vào làm bước đầu tiên. Và đơn giản là nó không đúng. Đó chỉ là cách mà nó “xuất hiện”.  
 
-�? t�i n�i cho b?n c�i v? b? ngo�i n�y �l?a d?o� th? n�o.
+Để tôi nói cho bạn cái vẻ bề ngoài này “lừa đảo” thế nào.
 
-**Ch�ng ta thu?ng d�nh gi� b�n trong ch�ng ta b?ng v? b�n ngo�i c?a ngu?i kh�c**
+**Chúng ta thường đánh giá bên trong chúng ta bằng vẻ bên ngoài của người khác**
 
-Ta so s�nh nh?ng suy nghi v� c?m gi�c s�u k�n v?i c�ch m� nh?ng ngu?i kh�c **th? hi?n ? b�n ngo�i**. Trong m?t th? gi?i du?c nh�n qua nh?ng b? l?c tr�n Instagram, n� s? khi?n t?t c? ch�ng ta c?m th?y k�m c?i, b�o ph�, x?u x�, ngu ng?c v� ngh�o kh�.  
+Ta so sánh những suy nghĩ và cảm giác sâu kín với cách mà những người khác **thể hiện ở bên ngoài**. Trong một thế giới được nhìn qua những bộ lọc trên Instagram, nó sẽ khiến tất cả chúng ta cảm thấy kém cỏi, béo phì, xấu xí, ngu ngốc và nghèo khó.  
 
-Th?c t? th� ni?m tin r?ng n� d? d�ng hon v?i nh?ng ngu?i kh�c r?t kh� tr�nh, d?n n?i th?m ch� gia d�nh th�n thi?t nh?t v?i t�i cung cho r?ng t�i �c� d?ng l?c m?t c�ch t? nhi�n�. ?? 
+Thực tế thì niềm tin rằng nó dễ dàng hơn với những người khác rất khó tránh, đến nỗi thậm chí gia đình thân thiết nhất với tôi cũng cho rằng tôi “có động lực một cách tự nhiên”. 😉 
 
-Cho ph�p t�i n�i ph?n c�n l?i ngay b�y gi?. �?ng l?c l� **k?t qu?** c?a vi?c �p d?ng h?c th?c d? t�i b�y gi?, d?n sau c�ng, th? hi?n ra trong blog n�y. N� kh�ng ph?i nguy�n nh�n. N� l� k?t qu?.
+Cho phép tôi nói phần còn lại ngay bây giờ. Động lực là **kết quả** của việc áp dụng học thức để tôi bây giờ, đến sau cùng, thể hiện ra trong blog này. Nó không phải nguyên nhân. Nó là kết quả.
 
-�? t�i nghi�n c?u di?m n�y.
+Để tôi nghiên cứu điểm này.
 
-�i?u d� d� t?ng kh� khan. V?n dang kh� khan. V� n� s? c�n ti?p t?c kh� khan n?a [Th?m ch� h�m nay t�i v?n c� d?u tranh trong th�m t�m](https://medium.com/my-mindset-mission/for-the-record-i-am-constantly-battling-doubt-4128409df7dc), g?n nhu m?i ng�y, v?i nh?ng th? t�i d� l�m trong nhi?u nam. M?t v�i ng�y t�i c� d?ng l?c, nhung t�m tr� t�i v?n mu?n b?o t�i ch?n c�ch don gi?n.
+Điều đó đã từng khó khăn. Vẫn đang khó khăn. Và nó sẽ còn tiếp tục khó khăn nữa [Thậm chí hôm nay tôi vẫn có đấu tranh trong thâm tâm](https://medium.com/my-mindset-mission/for-the-record-i-am-constantly-battling-doubt-4128409df7dc), gần như mọi ngày, với những thứ tôi đã làm trong nhiều năm. Một vài ngày tôi có động lực, nhưng tâm trí tôi vẫn muốn bảo tôi chọn cách đơn giản.
 
-T�i kh�ng ph?i lu�n MU?N r�n luy?n vi?c l?p tr�nh, d?c, d?p xe thay v� ch?n m?t chi?c xe di?n, di t?p th? h�nh, ki�ng an th�m m?t chi?c b�nh. T�i h?u nhu kh�ng bao gi? C?M TH?Y th�ch n�. M?i ng�y, t�m tr� t�i nghi d?n h�ng tram x? l� ho?c c�ch bu�ng th? d? d�nh l?a t�i ch?n l?y c�ch tho�t ra d? d�ng. Th? don gi?n hon, l� nh?n ra t�m tr� t�i dang l�m g�. B?i nhu Tony Robbins n�i: 
+Tôi không phải luôn MUỐN rèn luyện việc lập trình, đọc, đạp xe thay vì chọn một chiếc xe điện, đi tập thể hình, kiêng ăn thêm một chiếc bánh. Tôi hầu như không bao giờ CẢM THẤY thích nó. Mỗi ngày, tâm trí tôi nghĩ đến hàng trăm xử lí hoặc cách buông thả để đánh lừa tôi chọn lấy cách thoát ra dễ dàng. Thứ đơn giản hơn, là nhận ra tâm trí tôi đang làm gì. Bởi như Tony Robbins nói: 
 
-> �� kh�ng ph?i t�m tr� c?a b?n � d� l� t�m tr� n�i chung. (It�s not your mind � it�s THE mind.)
+> Đó không phải tâm trí của bạn … đó là tâm trí nói chung. (It’s not your mind … it’s THE mind.)
 
-V� sau d� t�i l�m di?u d� b?ng m?i c�ch. �� kh�ng ph?i l� d?ng l?c. �� l� k? lu?t. �?ng l?c l� m?t ngu?i b?n nhi?u m?t ngu?i m� ch? d?a v�o s? d? d? d? d�nh chi?n th?ng th�ng qua s? gi�p d? c?a b?n. Thay v�o d�, k? lu?t m?c m?t chi?c �o cho�ng b?c m�i, ng?i trong g�c v� kh�ng n�i nhi?u, nhung lu�n xu?t hi?n m?i l�c, d�ng tin c?y v� mang t?i s? d�ng d?n.
+Và sau đó tôi làm điều đó bằng mọi cách. Đó không phải là động lực. Đó là kỉ luật. Động lực là một người bạn nhiều mặt người mà chỉ dựa vào sự dụ dỗ để dành chiến thắng thông qua sự giúp đỡ của bạn. Thay vào đó, kỉ luật mặc một chiếc áo choàng bốc mùi, ngồi trong góc và không nói nhiều, nhưng luôn xuất hiện mọi lúc, đáng tin cậy và mang tới sự đúng đắn.
 
-�� l� quy t?c d? ki?m so�t **Ni?m tin sai l?m #3** (b?n c� th? kh�ng bao gi? ru b? n�, v?y n�n h�y qu?n l� n�). �i?u d� kh�ng d? d�ng v?i b?t k� ai. B?n s? **kh�ng bao gi?** c?m th?y th�ch n�, n�n h�y l�m n� b?ng m?i c�ch. L�m di?u d�. B?ng m?i gi�.  
+Đó là quy tắc để kiểm soát **Niềm tin sai lầm #3** (bạn có thể không bao giờ rũ bỏ nó, vậy nên hãy quản lý nó). Điều đó không dễ dàng với bất kì ai. Bạn sẽ **không bao giờ** cảm thấy thích nó, nên hãy làm nó bằng mọi cách. Làm điều đó. Bằng mọi giá.  
 
-Sau d� nh?ng ngu?i kh�c c� th? nh�n v�o b?n v� n�i di?u d� d? d�ng d?i v?i b?n.
+Sau đó những người khác có thể nhìn vào bạn và nói điều đó dễ dàng đối với bạn.
 
-?, v� kh�ng ph?i l� ch? m�nh t�i. Ch?n b?t c? ngu?i n�o truy?n c?m h?ng cho b?n, nghia l�, b?t c? ngu?i n�o trong t?t c?. H?i h?. Ho?c d?c v? h?. B?n s? th?y di?u d� tr�ng don gi?n b?i v� b?n ch? th?y s? so lu?c, m?t b? ph?n h?i h?t nh?t c?a cu?c d?i h?. V� b?n th?y n� th�ng qua b? l?c c?a b?n. Ph�a sau nh?ng h�nh ?nh ?y, h? d� l�m vi?c v� l�m vi?c v� luy?n t?p v� vu?t l�n s? ki�n tr�, s? ti�u c?c, v� s? th?t b?i **m?t c�ch l?p di l?p l?i** v� kh�ng h? c� b?ng ch?ng r?ng n� d� di d?n b?t c? d�u, hay h? dang ti?n b?.
+Ồ, và không phải là chỉ mình tôi. Chọn bất cứ người nào truyền cảm hứng cho bạn, nghĩa là, bất cứ người nào trong tất cả. Hỏi họ. Hoặc đọc về họ. Bạn sẽ thấy điều đó trông đơn giản bởi vì bạn chỉ thấy sự sơ lược, một bộ phận hời hợt nhất của cuộc đời họ. Và bạn thấy nó thông qua bộ lọc của bạn. Phía sau những hình ảnh ấy, họ đã làm việc và làm việc và luyện tập và vượt lên sự kiên trì, sự tiêu cực, và sự thất bại **một cách lặp đi lặp lại** và không hề có bằng chứng rằng nó đã đi đến bất cứ đâu, hay họ đang tiến bộ.
 
-B�y gi? h�y c�ng n�i v? nh?ng mong d?i b?n c� th? c� nhung l?i kh�ng gi�p b?n du?c g� nhi?u.
+Bây giờ hãy cùng nói về những mong đợi bạn có thể có nhưng lại không giúp bạn được gì nhiều.
 
 
-#### Mong d?i sai l?m #1: N� s? tr? n�n d? d�ng hon
+#### Mong đợi sai lầm #1: Nó sẽ trở nên dễ dàng hơn
 
-V�ng. Nhung ch? n?u b?n d� **ng?ng** d?y b?n th�n ti?n l�n. N?u b?n dang th?y n� d? d�ng, th� d� l� b?i v� b?n dang ? gi?m ch�n t?i ch?. �i?u d� ch?c ch?n x?y ra. Ch? l� d?ng d?ng ? d�. H�y ti?n l�n.
+Vâng. Nhưng chỉ nếu bạn đã **ngừng** đẩy bạn thân tiến lên. Nếu bạn đang thấy nó dễ dàng, thì đó là bởi vì bạn đang ở giẫm chân tại chỗ. Điều đó chắc chắn xảy ra. Chỉ là đừng dừng ở đó. Hãy tiến lên.
 
-#### Mong d?i sai l?m #2: N� s? x?y ra nhanh
+#### Mong đợi sai lầm #2: Nó sẽ xảy ra nhanh
 
-Kh�ng. N� s? kh�ng. **S? lu�n kh� khan hon nh?ng g� b?n nghi, l?i c�n c� th? d?t du?c nhi?u hon nh?ng g� b?n th?c hi?n�
+Không. Nó sẽ không. **Sẽ luôn khó khăn hơn những gì bạn nghĩ, lại còn có thể đạt được nhiều hơn những gì bạn thực hiện”
 
-�?c l?i c�u tr�n.
+Đọc lại câu trên.
 
-V� n� s? d�i h?i nhi?u th?i gian hon m� b?n ph?i tr? gi�. �� l� noi h?u h?t s? th?t v?ng c?a b?n b?t d�u, th?i gian tr�i qua s? khi?n b?n th�m nghi ng? v� s? h�i. 
+Và nó sẽ đòi hỏi nhiều thời gian hơn mà bạn phải trả giá. Đó là nơi hầu hết sự thất vọng của bạn bắt đâu, thời gian trôi qua sẽ khiến bạn thêm nghi ngờ và sợ hãi. 
 
-#### Mong d?i sai l?m #3: Cu?c d?i b?n s? thay d?i.
+#### Mong đợi sai lầm #3: Cuộc đời bạn sẽ thay đổi.
 
-C� th? c�. C� th? kh�ng. Ch? duy nh?t m?t di?u ch?c ch?n thay d?i. Ch�nh l� b?n.
+Có thể có. Có thể không. Chỉ duy nhất một điều chắc chắn thay đổi. Chính là bạn.
 
-V� n�i m?t c�ch nghi�m t�c, d� ch�nh l� di?m b?t d?u. T? d�, b?n c� th? di chuy?n d?u d?n tr�n hu?ng di c?a cu?c d?i thay d?i m� b?n t�m ra. 
+Và nói một cách nghiêm túc, đó chính là điểm bắt đầu. Từ đó, bạn có thể di chuyển đều đặn trên hướng đi của cuộc đời thay đổi mà bạn tìm ra. 
 
-Nhung cu?c d?i b?n s? kh�ng thay d?i cho d?n khi b?n thay d?i. V� n?u b?n luy?n t?p s? ki�n tr� th�ng qua l?p l?i th?t b?i trong nh?ng vi?c nhu l� h?c m?t ki nang m?i, b?n s? d?t du?c n� v?i s? s�ng su?t v� s? t? tin se gi�p b?n vu?t qua t?t c? nh?ng di?m ch?ng l?i trong cu?c d?i b?n. V� n?u b?n lu�n th? m? r?ng cu?c d?i m�nh, b?n s? lu�n ph?i d?i m?t v?i nh?ng th?t b?i d�. Nhu th? l� t?t. Th?t b?i l� m?t d?u hi?u c?a s? ti?n b?. H�y c? di ti?p. V� [nh? quy t?c c?a Nastia Luskin](https://www.linkedin.com/pulse/you-can-give-upif-follow-one-rule-zubin-pratap/).
+Nhưng cuộc đời bạn sẽ không thay đổi cho đến khi bạn thay đổi. Và nếu bạn luyện tập sự kiên trì thông qua lặp lại thất bại trong những việc như là học một kĩ năng mới, bạn sẽ đạt được nó với sự sáng suốt và sự tự tin se giúp bạn vượt qua tất cả những điểm chững lại trong cuộc đời bạn. Và nếu bạn luôn thử mở rộng cuộc đời mình, bạn sẽ luôn phải đối mặt với những thất bại đó. Như thế là tốt. Thất bại là một dấu hiệu của sự tiến bộ. Hãy cứ đi tiếp. Và [nhớ quy tắc của Nastia Luskin](https://www.linkedin.com/pulse/you-can-give-upif-follow-one-rule-zubin-pratap/).
 
-Nh?ng di?u truy?n c?m h?ng d? t�i vi?t b�i chi ti?t n�y:
+Những điều truyền cảm hứng để tôi viết bài chi tiết này:
 
 *   [Tom Bilyeu, Impact Theory](https://impacttheory.com)
 *   [How I built this - Podcast](https://www.npr.org/podcasts/510313/how-i-built-this)
