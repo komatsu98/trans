@@ -14,7 +14,7 @@ tôi sẽ dùng hướng tiếp cận mà ít có khả năng xảy ra lỗi nh�
 ## Lời khuyên #1: Đọc tài liệu chính thức
 
 
-Ý tôi chính là vậy đấy. [Tài liệu chính thức](https://getcomposer.org/doc/) rất tuyệt, chỉ với vài tiếng đọc nó có thể tiết kiệm cho bạn
+Ý tôi là vậy đấy. [Tài liệu chính thức](https://getcomposer.org/doc/) rất tuyệt, chỉ với vài tiếng đọc nó có thể tiết kiệm cho bạn
 rất nhiều thời gian về sau. Bạn sẽ bị ngạc nhiên về những gì Composer có thể làm được.
 
 
@@ -34,7 +34,7 @@ Tôi sẽ chỉ ra sự khác biệt giữa thư viện và project ở các l�
 
 ## Lời khuyên #3: Sử dụng các phiên bản dependency riêng biệt cho các ứng dụng
 
-Nếu bạn đang tạo một ứng dụng, bạn nên sử dụng phiên bản chi tiết nhất để định nghĩa dependency. Nếu bạn cần phân tích các file YAML,
+Nếu bạn đang tạo một ứng dụng, bạn nên ch để định nghĩa dependency. Nếu bạn cần phân tích các file YAML,
 bạn nên viết chi tiết về dependency như thế này: `"symfony/yaml": "4.0.2"`.
 
 Thậm chí thư viện sau [Semantic Versioning](https://semver.org/), có thể có những lỗi tương thích ngược trong các phiên bản thu nhỏ và đầy đủ.
@@ -67,7 +67,7 @@ Nếu bạn đang tạo _một project_, bạn chắc chắn muốn commit `comp
 chạy ứng dụng đó với các phiên bản dependency như nhau.
 
 Thoạt nhìn, điều này nghe có vẻ không cần thiết - bạn đã sử dụng một phiên bản cụ thể được giới hạn, như đã đề cập ở lời khuyên #3. Nhưng không, vẫn có những dependency trong các dependency của bạn
-không được giưới hạn với những ràng buộc này.
+không được giới hạn với những ràng buộc này.
 (chẳng hạn như `symfony/console` dựa trên `symfony/polyfill-mbstring`). Vì vậy nếu không commit `composer.lock`, bạn sẽ không thể nhận được tập các dependency chính xác.
 
 ## Lời khuyên #6: Đặt `composer.lock` vào `.gitignore` trong các thư viện
@@ -86,13 +86,13 @@ Nếu bạn muốn chắc chắn rằng thư viện sẽ tương thích với nh
 ## Lời khuyên #7: Chạy Travis CI thiết kế với những phiên bản dependency khác nhau
 > Lời khuyên này chỉ dành cho các thư viện (vì bạn sử dụng các phiên bản chi tiết cho các ứng dụng)
 
-Nếu bạn đang xây dựng một thư viện mã nguồn mở, bạn có thể sử dụng Travis CI để chạy các bản thiết kế của nó.
+Nếu bạn đang xây dựng một thư viện mã nguồn mở, bạn có thể sử dụng Travis CI để chạy các kiến trúc của nó.
 
 Theo mặc định, Composer cài đặt các phiên bản dependency mới nhất được cho phép bởi các ràng buộc trong `composer.json`. Có nghĩa là với
 ràng buộc dependency `^ 3.0 || ^ 4.0`, bản thiết kế sẽ luôn sử dụng phiên bản mới nhất của bản phát hành v4. Vì 3.0 chưa bao giờ được thử, thư viện có thể không
 tương thích với nó và điều đó sẽ làm cho người dùng của bạn không vui vẻ gì.
 
-May mắn thay, Composer cung cấp một công tắc để cài đặt các phiên bản thấp nhất có thể của các dependency `--prefer-low` (nên được sử dụng với` --prefer-stable` để
+May mắn thay, Composer cung cấp một bđể cài đặt các phiên bản thấp nhất có thể của các dependency `--prefer-low` (nên được sử dụng với` --prefer-stable` để
 ngăn chặn cài đặt các phiên bản không ổn định).
 
 Cấu hình của file `.travis.yml` đã cập nhật có thể trong như thế này:
@@ -126,9 +126,9 @@ Và chúng có thể không tương thích với nhau.
 ## Lời khuyên #8: Sắp xếp các package trong require và require-dev theo tên
 
 Việc giữ các package trong `require` và` require-dev` được sắp xếp theo tên là một thói quen tốt. Nó có thể ngăn chặn các xung-đột-khi-hợp-nhất không cần
-thiết khi rebase một nhánh. Bởi vì nếu bạn đã thêm một package vào cuối danh sách trong 2 nhánh thì sẽ có xung-đột-khi-hợp-nhất mọi lúc.
+thiết khi rebase một nhánh. Bởi vì nếu bạn đã thêm một package vào cuối danh sách trong 2 nhánh thì sẽ có xung-đột-khi-hợp-nhất.
 
-Thật không thú vị gì khi cứ phải tự tay làm điều đó, tốt hơn hết là [cấu hình nó](https://getcomposer.org/doc/06-config.md#sort-packages) trong
+Thật không thú vị gì khi cứ phải làm điều đó một cách th công, tốt hơn hết là [cấu hình nó](https://getcomposer.org/doc/06-config.md#sort-packages) trong
 `composer.json`:
 
     
@@ -198,7 +198,7 @@ dependency được chỉ định trong `composer.json`. Ngoài ra có thể dù
   2. Cập nhật phiên bản dependency trong `composer.json` lên phiên bản mới nhất
   3. Chạy `composer update phpunit/phpunit --with-dependencies` (thay `phpunit/phpunit` bằng thư viện bạn đang cập nhật)
   4. Kiểm tra CHANGELOG trong reposity trên Github để tìm ra nếu có bất kì sự thay đổi hỏng nào. Nếu có, cập nhật lại ứng dụng.
-  5. Kiểm thử ứng dụng ở local (nếu bạn đang dùng Symfony, bạn có thể tìm các cảnh báo về việc không được sử dụng trong thanh Debug)
+  5. Kiểm thử ứng dụng trên local (nếu bạn đang dùng Symfony, bạn có thể tìm các cảnh báo về việc không được sử dụng trong thanh Debug)
   6. Commit các thay đổi (`composer.json`, `composer.lock` và bất cứ thứ gì cần thiết cho phiên bản mới hoạt động)
   7. Chờ cho đến khi CI được build xong
   8. Hợp nhất và triển khai
