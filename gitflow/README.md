@@ -1,5 +1,5 @@
 ## 1. Git
-![Git](/branching.png)
+![Git](branching.png)
 <a name="some-git-rules"></a>
 
 ### 1.1 Some Git rules
