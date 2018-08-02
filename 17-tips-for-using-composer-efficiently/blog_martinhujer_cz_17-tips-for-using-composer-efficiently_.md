@@ -63,11 +63,11 @@ Trong trường hợp có 2 thư viện với mâu thuẫn trong việc require,
 
 ## Lời khuyên #5: Bạn nên commit `composer.lock` lên git trong các ứng dụng
 
-Nếu bạn đang tạo _một project_, bạn chắc chắn muốn commit `composer.lock` lên git. Việc này đảm bảo chắc chắn rằng mọi người - bạn, đồng nghiệp, CI server và production server của ban - cùng
+Nếu bạn đang tạo _một project_, bạn chắc chắn muốn commit `composer.lock` lên git. Việc này đảm bảo chắc chắn rằng mọi người - bạn, đồng nghiệp, CI server và production server của bạn - cùng
 chạy ứng dụng đó với các phiên bản dependency như nhau.
 
 Thoạt nhìn, điều này nghe có vẻ không cần thiết - bạn đã sử dụng một phiên bản cụ thể được giới hạn, như đã đề cập ở lời khuyên #3. Nhưng không, vẫn có những dependency trong các dependency của bạn
-không được giưới hạn với những ràng buộc này.
+không được giới hạn với những ràng buộc này.
 (chẳng hạn như `symfony/console` dựa trên `symfony/polyfill-mbstring`). Vì vậy nếu không commit `composer.lock`, bạn sẽ không thể nhận được tập các dependency chính xác.
 
 ## Lời khuyên #6: Đặt `composer.lock` vào `.gitignore` trong các thư viện
@@ -79,7 +79,7 @@ Hãy tưởng tượng rằng `acme / my-library` sử dụng` monolog / monolog
 sẽ phải sử dụng phiên bản cũ hơn của Monolog. Nhưng khi thư viện đã hoàn tất, và bạn sử dụng nó trong một project thực sự, một phiên bản mới hơn của Monolog có thể
 được cài đặt và nó có thể không tương thích với thư viện. Nhưng bạn đã không chú ý nó từ trước, vì `composer.lock`!
 
-Tốt nhất là đặt `composer.lock` vào your `.gitignore` để bạn sẽ không commit nó một cách tình cờ.
+Tốt nhất là đặt `composer.lock` vào `.gitignore` của bạn để bạn sẽ không commit nó một cách tình cờ.
 
 Nếu bạn muốn chắc chắn rằng thư viện sẽ tương thích với những phiên bản dependency khác của nó, hãy đọc lời khuyên tiếp theo!
 
@@ -95,7 +95,7 @@ tương thích với nó và điều đó sẽ làm cho người dùng của b�
 May mắn thay, Composer cung cấp một công tắc để cài đặt các phiên bản thấp nhất có thể của các dependency `--prefer-low` (nên được sử dụng với` --prefer-stable` để
 ngăn chặn cài đặt các phiên bản không ổn định).
 
-Cấu hình của file `.travis.yml` đã cập nhật có thể trong như thế này:
+Cấu hình của file `.travis.yml` đã cập nhật có thể trông như thế này:
 
     
     
@@ -152,7 +152,7 @@ có một dependency khác được thêm vào trong master, bạn cần phải 
 `composer.lock`.
 
 Bạn không bao giờ nên cố gắng giải quyết xung đột này theo cách thủ công, bởi vì file `composer.lock` chứa một hàm băm của các dependency được định nghĩa trong
-`composer.json`. Vì vậy, ngay cả khi bạn giải quyết xung đột, file khóa kết quả sẽ không chính xác.
+`composer.json`. Vì vậy, ngay cả khi bạn giải quyết xung đột, kết quả file lock vẫn sẽ không chính xác.
 
 Tốt nhất là tạo `.gitattributes` trong project root bằng
 lệnh sau, bằng cách này git sẽ không merge file `composer.lock`:
@@ -197,7 +197,7 @@ dependency được chỉ định trong `composer.json`. Ngoài ra có thể dù
   1. Tạo một nhánh mới
   2. Cập nhật phiên bản dependency trong `composer.json` lên phiên bản mới nhất
   3. Chạy `composer update phpunit/phpunit --with-dependencies` (thay `phpunit/phpunit` bằng thư viện bạn đang cập nhật)
-  4. Kiểm tra CHANGELOG trong reposity trên Github để tìm ra nếu có bất kì sự thay đổi hỏng nào. Nếu có, cập nhật lại ứng dụng.
+  4. Kiểm tra CHANGELOG trong repository trên Github để tìm ra nếu có bất kì sự thay đổi nào không. Nếu có, cập nhật lại ứng dụng.
   5. Kiểm thử ứng dụng ở local (nếu bạn đang dùng Symfony, bạn có thể tìm các cảnh báo về việc không được sử dụng trong thanh Debug)
   6. Commit các thay đổi (`composer.json`, `composer.lock` và bất cứ thứ gì cần thiết cho phiên bản mới hoạt động)
   7. Chờ cho đến khi CI được build xong
@@ -219,7 +219,7 @@ Hoặc bạn có thể sử dụng kí hiệu để cập nhật tất cả depe
 Tôi biết rằng tất cả điều này nghe có vẻ nhàm chán, nhưng bạn có thể sẽ chỉ cập nhật các dependency
 trong vài dịp thôi, vì vậy đáng để làm nó một cách an toàn hơn.
 
-Một phím tắt được chấp nhận để cập nhật tất cả dependency `require-dev` cùng một lúc (nếu họ không yêu cầu thay đổi code, ngược lại tôi đề xuất
+Một cách ngắn gọn là cập nhật tất cả các dependency `require-dev` cùng một lúc (nếu họ không yêu cầu thay đổi code, ngược lại tôi đề xuất
 sử dụng các nhánh riêng để việc xem lại code dễ dàng hơn).
 
 ## Lời khuyên #12: Bạn có thể định nghĩa những loại dependency khác trong `composer.json`
@@ -235,8 +235,7 @@ Bạn có thể định nghĩa các phiên bản PHP mà ứng dụng/thư việ
     },
     
 
-You can also define which extensions are required for the application/library.
-It is super-useful when
+
 Bạn cũng có thể định nghĩa các extension nào được require cho ứng dụng/thư viện. Nó cực kì có ích khi bạn đang cố cập nhật ứng dụng của mình hoặc khi một đồng nghiệp mới
 muốn cài đặt ứng dụng đó lần đầu.
 
@@ -261,7 +260,7 @@ muốn cài đặt ứng dụng đó lần đầu.
 
 ## Lời khuyên #14: Sử dụng Composer plugin trong PHPStorm
 
-Có một plugin [composer.json cho PHPStorm] (https://plugins.jetbrains.com/plugin/7631-php-composer-json-support). Nó thêm tự động hoàn thành và một số xác thực khi thay đổi
+Có một plugin [composer.json cho PHPStorm] (https://plugins.jetbrains.com/plugin/7631-php-composer-json-support). Nó thêm  bộ tự động hoàn thành và một số xác thực khi thay đổi
 `composer.json` theo cách thủ công.
 
 Nếu bạn đang sử dụng IDE khác (hoặc chỉ là một trình soạn code), bạn có thể thiết lập xác thực
