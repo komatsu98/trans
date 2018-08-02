@@ -7,7 +7,6 @@ Có một số luật mà bạn cần nhớ:
 * Thể hiện công việc ở một nhánh tính năng.
     
     _Tại sao:_
-    >Because this way all work is done in isolation on a dedicated branch rather than the main branch. It allows you to submit multiple pull requests without confusion. You can iterate without polluting the master branch with potentially unstable, unfinished code. [read more...](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow)
     >Bởi vì theo cách này tất cả các công việc được thực hiện độc lập trên một nhánh chuyên dụng chứ không phải là nhánh chính. Nó cho phép bạn gửi nhiều pull request mà không bị nhầm lẫn. Bạn có thể lặp mà không làm rối nhánh chính với code chưa hoàn thành, có khả năng không ổn định. [xem thêm...](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow)
 * Tách khỏi nhánh `develop`
     
