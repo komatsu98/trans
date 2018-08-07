@@ -4,7 +4,7 @@
 Bài báo này được đặt tiêu đề "[Wartet nicht auf Perfektion - lernt aus euren Fehlern!](http://www.wiwo.de/erfolg/management/digitalisierung-wartet-nicht-auf-perfektion-lernt-aus-euren-fehlern/19955856.html)" và đã xuất hiện ở Đức cuối tuần trước trong chuyên mục "Digitaliserung"
 của [Wirtschaftwoche](http://www.wiwo.de).
 
-![](/images/broken-car.jpg)
+![](broken-car.jpg)
 
 "Người đàn ông sẽ tiếp tục mắc sai lầm khi anh ta còn cố gắng." Goethe, hoàng tử của các nhà thơ Đức, được biết đến hơn 200 năm trước.
 Lời nói của anh ta vẫn còn đúng cho đến ngày hôm nay, nhưng
