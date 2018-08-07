@@ -1,15 +1,12 @@
-##  [Đừng chờ đợi sự hoàn hảo và hãy học từ những sai lầm của bản thân](/2017/06/stop-
-waiting-for-perfection.html)
+##  [Đừng chờ đợi sự hoàn hảo và hãy học từ những sai lầm của bản thân](/2017/06/stop-waiting-for-perfection.html)
 
 
-Bài báo này được đặt tiêu đề "[Wartet nicht auf Perfektion - lernt aus euren
-Fehlern!](http://www.wiwo.de/erfolg/management/digitalisierung-wartet-nicht-
-auf-perfektion-lernt-aus-euren-fehlern/19955856.html)" và đã xuất hiện ở Đức cuối tuần trước trong chuyên mục "Digitaliserung"
+Bài báo này được đặt tiêu đề "[Wartet nicht auf Perfektion - lernt aus euren Fehlern!](http://www.wiwo.de/erfolg/management/digitalisierung-wartet-nicht-auf-perfektion-lernt-aus-euren-fehlern/19955856.html)" và đã xuất hiện ở Đức cuối tuần trước trong chuyên mục "Digitaliserung"
 của [Wirtschaftwoche](http://www.wiwo.de).
 
 ![](/images/broken-car.jpg)
 
-"Người đàn ông sẽ mắc sai lầm khi anh ta còn cố gắng." Goethe, hoàng tử của các nhà thơ Đức, được biết đến hơn 200 năm trước.
+"Người đàn ông sẽ tiếp tục mắc sai lầm khi anh ta còn cố gắng." Goethe, hoàng tử của các nhà thơ Đức, được biết đến hơn 200 năm trước.
 Lời nói của anh ta vẫn còn đúng cho đến ngày hôm nay, nhưng
 với một sự khác biệt quan trọng: chỉ cố gắng thôi là không đủ. Bạn phải phấn đấu
 nhanh hơn phần còn lại. Và dù không có gì là sai khi cố gắng đạt đến sự hoàn hảo, nhưng trong thế giới kỹ thuật số ngày nay,
