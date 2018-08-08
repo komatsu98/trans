@@ -9,7 +9,7 @@ của [Wirtschaftwoche](http://www.wiwo.de).
 "Người đàn ông sẽ tiếp tục mắc sai lầm khi anh ta còn cố gắng." Goethe, hoàng tử của các nhà thơ Đức, được biết đến hơn 200 năm trước.
 Lời nói của anh ta vẫn còn đúng cho đến ngày hôm nay, nhưng
 với một sự khác biệt quan trọng: chỉ cố gắng thôi là không đủ. Bạn phải phấn đấu
-nhanh hơn phần còn lại. Và dù không có gì là sai khi cố gắng đạt đến sự hoàn hảo, nhưng trong thế giới kỹ thuật số ngày nay,
+nhanh hơn phần còn lại. Và dù không có gì là sai khi cố gắng đạt đến sự hoàn hảo, nhưng trong thế giới số ngày nay,
 bạn không còn có thể đợi cho đến khi sản phẩm gần hoàn hảo rồi mới cung cấp cho khách hàng. Nếu vậy, bạn sẽ bị bỏ lại phía sau trong thị trường của bạn.
 
 Vậy nếu như bạn không thể chờ đợi sự hoàn hảo, thì bạn nên làm gì? Tôi tin rằng câu trả lời là hãy thực nghiệm với sự phát triển sản phầm của bạn,
@@ -20,7 +20,7 @@ Bất cứ ai đã từng lắng nghe, hay làm việc với các bậc thầy v
 trong dòng xoáy của việc kinh doanh hằng ngày, họ không có đủ thời gian để thực sự phản ánh về nguyên nhân gây ra lỗi và xác định phải làm gì khác
 trong lần tiếp theo.
 
-Giải pháp là tìm một hướng tiếp cận có hệ thống để ngăn chặn các lỗi tự lặp đi lặp lại.
+Giải pháp là tìm một hướng tiếp cận có hệ thống để ngăn chặn các chính lỗi lặp đi lặp lại.
 
 **Từ sự hoàn hảo đến khả năng loại bỏ sự yếu kém**
 
@@ -40,7 +40,7 @@ thất bại nào chúng có thể gặp phải trong khi vận hành hệ thố
 
 Một ví dụ về một công ty Đức đã đạt được 'khả năng loại bỏ sự yếu kém' là HARTING,
 nhà cung cấp hàng đầu thế giới về kết nối cắm được cho máy móc và dụng cụ. HARTING cho thấy cách suy nghĩ trước một bước về ý nghĩa của các
-tiêu chuẩn chất lượng trong thế giới kỹ thuật số. Chất lượng và sự tin tưởng là những giá trị quan trọng nhất cho công ty truyền thống này,
+tiêu chuẩn chất lượng trong thế giới số. Chất lượng và sự tin tưởng là những giá trị quan trọng nhất cho công ty truyền thống này,
 và ngành công nghiệp 4.0 và chuyển đổi kỹ thuật số đã trở thành những lĩnh vực trọng tâm cho họ kể từ năm 2011.
 Mặc dù lúc đầu khó chấp nhận, HARTING nhận ra rằng sai lầm là không thể tránh khỏi. Vì lý do đó, sự phát triển của nó chuyển sang phương thức nhanh nhẹn.
 Nó cũng sử dụng phương pháp "tối thiểu sản phẩm khả thi" và dựa trên các dịch vụ nhỏ cho phần mềm của nó.
@@ -76,7 +76,7 @@ lượng thông tin chi tiết tối đa từ sự việc. Và quá trình này 
 Một yếu tố quan trọng trong phương pháp nguyên-nhân-gây-ra-lỗi của chúng tôi là hỏi 5 câu hỏi 'Tại sao?' câu hỏi (một kỹ thuật có nguồn gốc trong kiểm soát
 chất lượng trong sản xuất). Điều này rất quan trọng vì nó xác định căn bản gốc của vấn đề.
 
-Lấy trường hợp của một trang web: Tại sao nó lại sập vào thứ Sáu tuần trước? Máy chủ web đã báo cáo các timeout. Tại sao lại có timeout?
+Lấy trường hợp của một trang web: Tại sao nó lại sập vào thứ Sáu tuần trước? Máy chủ web đã báo cáo bị timeout. Tại sao lại có timeout?
 Bởi vì các dịch vụ web của chúng tôi bị quá tải và không thể đối phó với lưu lượng truy cập cao. Tại sao các máy chủ web bị quá tải? Bởi vì chúng tôi
 không có đủ máy chủ web để xử lý tất cả yêu cầu vào thời gian cao điểm. Tại sao chúng ta không có đủ máy chủ web? Bởi vì chúng tôi không xem xét các
 đỉnh điểm nhu cầu có thể có trong sự tính toán của mình. Tại sao chúng tôi không tính đến nhu cầu cao nhất trong kế hoạch của mình? Đến cuối quá trình này,
@@ -85,14 +85,14 @@ chúng tôi biết chính xác những gì đã xảy ra và khách hàng nào b
 
 Khá thường xuyên, áp dụng cách tiếp cận nguyên-nhân-gây-ra-lỗi này cho phép chúng ta tìm ra những đổi mới đột phá, theo tinh thần của Nassim Taleb.
 Đó là cách mà giải pháp Auto Scaling được tạo ra, sau khi một phân đoạn khách hàng nhất định đang chiến đấu với các lần truy cập dao động mạnh trên
-trang web của họ. Khi lượt truy cập tăng ở một trang web, Auto Scaling tự động xoay một máy chủ web bổ sung để phục vụ số lượng yêu cầu tăng lên. Ngược lại,
+trang web của họ. Khi lượt truy cập tăng ở một trang web, Auto Scaling tự động chuyển một máy chủ web bổ sung để phục vụ số lượng yêu cầu tăng lên. Ngược lại,
 khi lượt truy cập giảm xuống, Auto Scaling sẽ tắt các máy chủ web không cần thiết để tiết kiệm chi phí.
 
 Những gì nó tiết lộ là: Các tổ chức cần phải nhìn xa hơn thành công bề ngoài. Điều này đúng cho sự phát triển của các hệ thống cũng như các mô hình kinh doanh.
 Nếu bạn muốn vẫn còn nhanh nhẹn trong một môi trường phức tạp, bạn phải đi theo con đường này, ngay cả khi nó có nghĩa là rời khỏi vùng thoải mái.
 Nếu chúng ta chuyển những ý tưởng này thành một kịch bản có tổ chức, ba khía cạnh có thể đáng xem xét:
 
-**1\. Bao gồm lỗi như là một vấn đề của thực tế**
+**1\. Lỗi như là một vấn đề của thực tế**
 
 Jeff Bezos đã từng nói về Amazon: "Tôi tin rằng chúng tôi là nơi tốt nhất trên thế giới để thất bại." Điều đó truyền cảm hứng cho rất nhiều người của chúng tôi
 để thử nghiệm, tìm lỗi và biến chúng thành một cái gì đó sáng tạo. Một tuyên bố như thế này khuyến khích người dân của bạn chủ động tìm kiếm các lỗi và biến
