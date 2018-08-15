@@ -1,5 +1,5 @@
 # 11 câu hỏi khó nhằn về git trong phỏng vấn sẽ khiến bạn bật khóc
-Theo cuộc khảo sát về dev mới nhất trên Stack Overflow, hơn 70% dev sử dụng Git, khiến nó trở thành VCS được sử dụng nhiều nhất trên thế giới. Git thường được sử dụng cho cả phát triển phần mềm thương mại và nguồn mở, với những lợi ích đáng kể cho các cá nhân, nhóm và doanh nghiệp.
+Theo cuộc khảo sát về dev mới nhất trên Stack Overflow, hơn 70% dev sử dụng Git, khiến nó trở thành VCS được sử dụng nhiều nhất trên thế giới. Git thường được sử dụng cho cả phát triển phần mềm thương mại và mã nguồn mở, với những lợi ích đáng kể cho các cá nhân, nhóm và doanh nghiệp.
 ### C1: Git fork là gì? Nêu sự khác nhau giữa fork, branch và clone.
 
 > Topic: **Git**
@@ -7,7 +7,7 @@ Theo cuộc khảo sát về dev mới nhất trên Stack Overflow, hơn 70% dev
 
 *   Mỗi **fork** là một bản sao từ xa, phía máy chủ của một repo, khác với bản gốc. Fork không phải là một khái niệm thực sự của Git, nó giống một ý tưởng về chính trị/xã hội hơn.   
 *   Mỗi **clone** không phải là một fork; nó là một bản sao cục bộ của một repo từ xa nào đó. Khi bạn clone, bạn đang thực sự sao chép toàn bộ mã nguồn của repo, bao gồm cả lịch sử và các nhánh (branch).
-*   Mỗi **bracnch** là một cơ chế để xử lý các thay đổi trong một repo duy nhất để rồi cuối cùng hợp nhất chúng với phần code còn lại. Branch là một thứ gì đó nằm trong repo. Về mặt khái niệm, nó đại diện cho một luồng phát triển.
+*   Mỗi **branch** là một cơ chế để xử lý các thay đổi trong một repo duy nhất để rồi cuối cùng hợp nhất chúng với phần code còn lại. Branch là một thứ gì đó nằm trong repo. Về mặt khái niệm, nó đại diện cho một luồng phát triển.
 
 🔗**Nguồn:** [stackoverflow.com](https://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences/)
 
@@ -58,7 +58,6 @@ Giả sử bây giờ bạn có C là HEAD và (F) là trạng thái các file.
 
 </div>
 
-Now B is the HEAD. Because you used --hard, your files are reset to their state at commit B.
 Giờ B trở thành HEAD. Bởi vì bạn đã sử dụng --hard nên các file của bạn sẽ được đặt lại trạng thái của chúng ở commit B.
 
 *   Để hủy bỏ commit nhưng vẫn giữ lại các thay đổi:
