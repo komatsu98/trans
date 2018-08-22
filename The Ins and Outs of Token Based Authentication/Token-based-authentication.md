@@ -20,7 +20,7 @@ Bất kỳ hệ thống lớn API hoặc ứng dụng web nào mà bạn đã g�
 
 Hãy cùng xem nó hoạt động như nào.
 
-## Why Tokens Came Around
+## Tại sao xuất hiện token
 
 Trước khi chúng ta có thể thấy cách Token based authentication hoạt động và lợi ích của nó, ta phải xem xét cách mà xác thực đã được thực hiện trong quá khứ.
 
@@ -113,7 +113,7 @@ Khi API của chúng tôi chỉ phân phối dữ liệu, chúng tôi cũng có 
 
 Dữ liệu và tài nguyên của chúng tôi sẵn có cho các yêu cầu từ bất kỳ miền nào ngay bây giờ ** miễn là người dùng có token hợp lệ **.
 
-### Standards Based
+### Dựa trên các chuẩn
 
 Khi tạo token, bạn có một vài tùy chọn. Chúng ta sẽ đi sâu hơn vào chủ đề này khi chúng ta bảo mật một API trong một bài viết tiếp theo, nhưng tiêu chuẩn để sử dụng sẽ là [JSON Web Tokens] [3].
 
