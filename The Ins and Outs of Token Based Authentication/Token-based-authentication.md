@@ -20,7 +20,7 @@ Bất kỳ hệ thống lớn API hoặc ứng dụng web nào mà bạn đã g�
 
 Hãy cùng xem nó hoạt động như nào.
 
-## Why Tokens Came Around
+## Tại sao token được sinh ra
 
 Trước khi chúng ta có thể thấy cách Token based authentication hoạt động và lợi ích của nó, ta phải xem xét cách mà xác thực đã được thực hiện trong quá khứ.
 
@@ -79,7 +79,7 @@ Chúng tôi thậm chí có thể tạo một giấy phép based token và truy�
 
 ### Không trạng thái và có thể mở rộng
 
-Các token được lưu trữ ở phía client. Hoàn toàn không có trạng thái và sẵn sàng để được thu nhỏ. Cân bằng tải của chúng tôi có thể chuyển người dùng đến bất kỳ máy chủ nào của chúng tôi vì không có thông tin trạng thái hoặc phiên nào ở bất kỳ đâu.
+Các token được lưu trữ ở phía client. Hoàn toàn không có trạng thái và sẵn sàng để mở rộng. Cân bằng tải của chúng tôi có thể chuyển người dùng đến bất kỳ máy chủ nào của chúng tôi vì không có thông tin trạng thái hoặc phiên nào ở bất kỳ đâu.
 
 Nếu chúng tôi giữ thông tin về session trên người dùng đã đăng nhập, điều này sẽ yêu cầu chúng tôi tiếp tục gửi người dùng đó đến máy chủ _họ đã đăng nhập_ (được gọi là tính liên thông session).
 
@@ -111,9 +111,9 @@ Khi API của chúng tôi chỉ phân phối dữ liệu, chúng tôi cũng có 
     Access-Control-Allow-Origin: *
     
 
-Dữ liệu và tài nguyên của chúng tôi sẵn có cho các yêu cầu từ bất kỳ miền nào ngay bây giờ ** miễn là người dùng có token hợp lệ **.
+Dữ liệu và tài nguyên của chúng tôi sẵn có cho các yêu cầu từ bất kỳ domain nào ngay bây giờ ** miễn là người dùng có token hợp lệ **.
 
-### Standards Based
+### Dựa trên các chuẩn
 
 Khi tạo token, bạn có một vài tùy chọn. Chúng ta sẽ đi sâu hơn vào chủ đề này khi chúng ta bảo mật một API trong một bài viết tiếp theo, nhưng tiêu chuẩn để sử dụng sẽ là [JSON Web Tokens] [3].
 
