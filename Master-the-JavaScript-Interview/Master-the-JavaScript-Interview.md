@@ -1,61 +1,60 @@
 
-# Làm chủ cuộc phỏng vấn JavaScript: Lập trình hàm là gì?
+# Làm chủ phỏng vấn JavaScript: Functional programming là gì?
 
 ![][1]
 
 Cấu trúc Synth—Orihaus (CC BY 2.0)
 
-> "Làm chủ cuộc phỏng vấn JavaScript" là một chuỗi các bài viết được thiết kế cho các ứng viên để chuẩn bị cho các câu hỏi mà họ thường 
+> "Làm chủ phỏng vấn JavaScript" là một chuỗi các bài viết được thiết kế cho các ứng viên để chuẩn bị cho các câu hỏi mà họ thường 
 gặp phải khi apply một vị trí giữa hoặc cao cấp về JavaScript. Đây cũng là những câu hỏi mà tôi thường xuyên sử dụng trong các cuộc phỏng 
 vấn trên thực tế.
 
-Lập trình hàm đã trở thành một chủ đề nóng trong thế giới JavaScript. Chỉ vài năm trước, vài lập trình viên JavaScript thậm chí còn không 
-biết lập trình hàm là gì, nhưng mỗi ứng dụng với codebase lớn mà tôi đã thấy trong 3 năm qua đều sử dụng nhiều ý tưởng lập trình hàm.
+Functional programming (lập trình hàm hay lập trình chức năng) đã trở thành một chủ đề nóng trong thế giới JavaScript. Chỉ vài năm trước, vài lập trình viên JavaScript thậm chí còn không 
+biết Functional programming là gì, nhưng mỗi ứng dụng với codebase lớn mà tôi đã thấy trong 3 năm qua đều sử dụng nhiều ý tưởng Functional programming.
 
-** Lập trình hàm ** (thường được viết tắt là FP) là quá trình xây dựng phần mềm bằng cách compose các ** hàm thuần túy **, tránh ** trạng 
-thái chia sẻ, ** ** dữ liệu có thể thay đổi, ** và ** tác dụng phụ **.
+** Functional programming ** (thường được viết tắt là FP) là quá trình xây dựng phần mềm bằng cách compose các ** hàm thuần túy **, tránh ** trạng 
+thái chia sẻ, ** ** dữ liệu không bất biến, ** và ** tác dụng phụ **.
 
-Lập trình hàm là một **mô hình lập trình**, có nghĩa nó là một cách suy nghĩ về xây dựng phần mềm dựa trên một số nguyên tắc cơ bản, xác 
-định (được liệt kê ở trên). Các ví dụ khác về mô hình lập trình bao gồm lập trình hướng đối tượng và lập trình thủ tục.
+Functional programming là một **cơ chế lập trình**, có nghĩa nó là một cách suy nghĩ về xây dựng phần mềm dựa trên một số nguyên tắc cơ bản, xác 
+định (được liệt kê ở trên). Các ví dụ khác về cơ chế lập trình bao gồm lập trình hướng đối tượng và lập trình thủ tục.
 
-Code hàm có xu hướng ngắn gọn hơn, dễ dự đoán hơn và dễ kiểm tra hơn code bắt buộc hoặc hướng đối tượng - nhưng nếu bạn không quen với nó và 
-các pattern phổ biến liên quan đến nó, code hàm cũng có thể nặng nề hơn và tài liệu liên quan có thể không thể hiểu được đối với người mới 
-đến.
+Functional code có xu hướng ngắn gọn hơn, dễ dự đoán hơn và dễ kiểm tra hơn code bắt buộc hoặc hướng đối tượng - nhưng nếu bạn không quen với nó và 
+các pattern phổ biến liên quan đến nó, functional code cũng có thể nặng nề hơn và tài liệu liên quan có thể khó hiểu đối với người mới đến.
 
-Nếu bạn bắt đầu google các điều kiện lập trình hàm, bạn sẽ nhanh chóng gặp phải một bức tường của ngôn ngữ học thuật có thể rất 
+Nếu bạn bắt đầu google các điều kiện Functional programming, bạn sẽ nhanh chóng gặp phải một bức tường của ngôn ngữ học thuật có thể rất 
 đáng sợ cho người mới bắt đầu. Nói rằng nó có một đường cong học tập là một cách nói giảm nghiêm trọng. Nhưng nếu bạn đã lập trình JavaScript 
 trong một thời gian, rất có thể là bạn đã sử dụng rất nhiều khái niệm và tiện ích lập trình chức năng trong phần mềm thực của bạn.
 
 > Đừng để tất cả những từ ngữ mới làm bạn sợ hãi. Nó dễ hơn rất nhiều so với những gì nó nói.
 
-Phần khó nhất là bạn luôn bị bao vây bởi các từ ngữ không quen thuộc. Có rất nhiều ý tưởng trong định nghĩa trong sáng ở trên mà tất cả mọi thứ cần phải được hiểu trước khi bạn có thể bắt đầu nắm bắt ý nghĩa của lập trình hàm:
+Phần khó nhất là bạn luôn bị bao vây bởi các từ ngữ không quen thuộc. Có rất nhiều ý tưởng trong định nghĩa trong sáng ở trên mà tất cả mọi thứ cần phải được hiểu trước khi bạn có thể bắt đầu nắm bắt ý nghĩa của Functional programming:
 
-* Các hàm thuần túy
-* Tổ hợp hàm
+* Các pure function (hàm thuần túy)
+* Function composition (hàm hợp)
 * Tránh trạng thái chia sẻ
 * Tránh thay đổi trạng thái
 * Tránh tác dụng phụ
 
-Nói cách khác, nếu bạn muốn biết những gì có nghĩa là lập trình hàm trong thực tế, bạn phải bắt đầu với một sự hiểu biết về những khái niệm cốt lõi đó.
+Nói cách khác, nếu bạn muốn biết những gì có nghĩa là Functional programming trong thực tế, bạn phải bắt đầu với một sự hiểu biết về những khái niệm cốt lõi đó.
 
-Một **hàm thuần túy** là hàm mà:
-* Cho trước các input giống nhau, luôn trẻ về cùng một output, và
+Một **pure function** là hàm mà:
+* Cho trước các tập đầu vào giống nhau, luôn trẻ về cùng một kết quả, và
 * Không có tác dụng phụ
 
-Các hàm thuần túy có rất nhiều thuộc tính quan trọng trong lập trình hàm, bao gồm ** tính minh bạch tham chiếu ** (bạn có thể thay thế một lời gọi hàm với giá trị kết quả của nó mà không thay đổi ý nghĩa của chương trình). Đọc ["Hàm thuần túy là gì?"] [2] để biết thêm chi tiết.
+Các hàm thuần túy có rất nhiều thuộc tính quan trọng trong Functional programming, bao gồm ** tính minh bạch tham chiếu ** (bạn có thể thay thế một lời gọi hàm với giá trị kết quả của nó mà không thay đổi ý nghĩa của chương trình). Đọc ["Pure function là gì?"] [2] để biết thêm chi tiết.
 
-** Tổ hợp hàm ** là quá trình kết hợp hai hoặc nhiều hàm để tạo ra một hàm mới hoặc thực hiện một số tính toán. Ví dụ, tổ hợp `f. g` 
-(dấu chấm có nghĩa là "hợp thành với") tương đương với `f (g (x))` trong JavaScript. Hiểu biết về thành phần hàm là một bước quan trọng 
-hướng tới sự hiểu biết cách phần mềm được xây dựng bằng cách sử dụng lập trình hàm. Đọc ["Tổ hợp hàm là gì?"] [3] để biết thêm.
+** Function composition ** là quá trình kết hợp hai hoặc nhiều hàm để tạo ra một hàm mới hoặc thực hiện một số tính toán. Ví dụ, tổ hợp `f. g` 
+(dấu chấm có nghĩa là "hợp với") tương đương với `f (g (x))` trong JavaScript. Hiểu biết về  function composition là một bước quan trọng 
+hướng tới sự hiểu biết cách phần mềm được xây dựng bằng cách sử dụng Functional programming. Đọc ["Function composition là gì?"] [3] để biết thêm.
 
-### Trạng thái chia sẻ
+### Shared State
 
-** Trạng thái chia sẻ ** là bất kỳ biến, đối tượng hoặc không gian bộ nhớ nào tồn tại trong một phạm vi chia sẻ hoặc là thuộc tính của một đối tượng được truyền
+** Shared state ** (trạng thái được chia sẻ) là bất kỳ biến, đối tượng hoặc không gian bộ nhớ nào tồn tại trong một phạm vi chia sẻ hoặc là thuộc tính của một đối tượng được truyền
 giữa các phạm vi. Một phạm vi chia sẻ có thể bao gồm phạm vi toàn cục hoặc đóng kín. Thông thường, trong lập trình hướng đối tượng, các đối tượng được chia sẻ
 giữa các phạm vi bằng cách thêm các thuộc tính cho các đối tượng khác.
 
 Ví dụ, một trò chơi máy tính có thể có một đối tượng trò chơi chính, với các nhân vật và các item được lưu trữ dưới dạng các thuộc 
-tính thuộc sở hữu của đối tượng đó. Lập trình hàm tránh trạng thái chia sẻ - thay vào đó dựa vào cấu trúc dữ liệu không thay đổi và 
+tính thuộc sở hữu của đối tượng đó. Functional programming tránh shared state - thay vào đó dựa vào cấu trúc dữ liệu không thay đổi và 
 tính toán thuần túy để lấy dữ liệu mới từ dữ liệu hiện có. Để biết thêm chi tiết về cách phần mềm hàm có thể xử lý trạng thái ứng 
 dụng, hãy xem ["10 mẹo để có cấu trúc Redux tốt hơn"] [4].
 
@@ -99,7 +98,7 @@ Loại bỏ phụ thuộc thời gian lời gọi hàm và bạn sẽ loại b�
 Một đối tượng ** không thay đổi ** là một đối tượng không thể sửa đổi sau khi nó được tạo ra. Ngược lại, một đối tượng ** có thể thay đổi 
 ** là bất kỳ đối tượng nào có thể được sửa đổi sau khi nó được tạo.
 
-Tính bất biến là một khái niệm trung tâm về lập trình hàm bởi vì nếu không có nó, luồng dữ liệu trong chương trình của bạn sẽ bị mất mát. Lịch 
+Tính bất biến là một khái niệm trung tâm về  Functional programming bởi vì nếu không có nó, luồng dữ liệu trong chương trình của bạn sẽ bị mất mát. Lịch 
 sử trạng thái bị bỏ qua và các lỗi lạ có thể xâm nhập vào phần mềm của bạn. Để biết thêm về tầm quan trọng của bất biến, hãy xem ["Dao của tính bất biến."] [5]
 
 Trong JavaScript, điều quan trọng là không nhầm lẫn `const`, với bất biến. `const` tạo ra một ràng buộc tên biến mà không thể được gán lại 
@@ -115,7 +114,7 @@ Như bạn có thể thấy, các thuộc tính nguyên thủy cấp cao nhất 
 đồng thời là một đối tượng (bao gồm mảng, vv…) vẫn có thể bị biến đổi - vì vậy ngay cả đối tượng bị đóng băng cũng không phải bất biến trừ khi bạn đi đến
 bộ toàn bộ cây đối tượng và đóng băng mọi thuộc tính của nó.
 
-Trong nhiều ngôn ngữ lập trình hàm, có các cấu trúc dữ liệu bất biến đặc biệt gọi là ** cấu trúc dữ liệu trie ** (phát âm là "tree") được 
+Trong nhiều ngôn ngữ Functional programming, có các cấu trúc dữ liệu bất biến đặc biệt gọi là ** cấu trúc dữ liệu trie ** (phát âm là "tree") được 
 đóng băng sâu - nghĩa là không có thuộc tính nào có thể thay đổi, bất kể mức độ của thuộc tính trong hệ thống phân cấp đối tượng.
 
 Các trie sử dụng ** chia sẻ có cấu trúc ** để chia sẻ các vị trí bộ nhớ tham chiếu cho tất cả các phần của đối tượng không thay đổi sau 
@@ -141,7 +140,7 @@ Một tác dụng phụ là bất kỳ thay đổi trạng thái ứng dụng n�
 * Kích hoạt bất kỳ quá trình bên ngoài nào
 * Gọi bất kỳ chức năng nào khác có tác dụng phụ
 
-Tác dụng phụ hầu hết phải tránh trong lập trình hàm, làm cho hiệu ứng của một chương trình dễ hiểu hơn nhiều và dễ dàng hơn nhiều để 
+Tác dụng phụ hầu hết phải tránh trong Functional programming, làm cho hiệu ứng của một chương trình dễ hiểu hơn nhiều và dễ dàng hơn nhiều để 
 kiểm tra.
 
 Haskell và các ngôn ngữ hàm khác thường tách biệt và đóng gói các hiệu ứng phụ từ các hàm thuần túy bằng [** monads **] [8]. Chủ đề 
@@ -156,11 +155,11 @@ riêng biệt, được ghép nối lỏng lẻo.
 
 ### Khả năng tái sử dụng thông qua các hàm bậc cao
 
-Lập trình hàm có xu hướng tái sử dụng lại một tập hợp các tiện ích hàm phổ biến để xử lý dữ liệu. Lập trình hướng đối tượng có xu 
+Functional programming có xu hướng tái sử dụng lại một tập hợp các tiện ích hàm phổ biến để xử lý dữ liệu. Lập trình hướng đối tượng có xu 
 hướng phân bổ phương pháp và dữ liệu trong các đối tượng. Những phương được pháp phân bổ chỉ có thể hoạt động trên loại dữ liệu mà chúng 
 được thiết kế để hoạt động và thường chỉ có dữ liệu chứa trong cá thể đối tượng cụ thể đó..
 
-Trong lập trình hàm, bất kỳ loại dữ liệu nào đều là trò chơi công bằng. Cùng một tiện ích `map()` có thể ánh xạ đối tượng, chuỗi, số 
+Trong Functional programming, bất kỳ loại dữ liệu nào đều là trò chơi công bằng. Cùng một tiện ích `map()` có thể ánh xạ đối tượng, chuỗi, số 
 hoặc bất kỳ kiểu dữ liệu nào khác vì nó lấy hàm làm đối số xử lý thích hợp loại dữ liệu đã cho. FP rút ra thủ thuật tiện ích chung của nó 
 bằng cách sử dụng ** các hàm bậc cao hơn **.
 
@@ -191,7 +190,7 @@ bất kỳ kiểu dữ liệu nào. Chúng ta sẽ tạo một ánh xạ `double
 gì chúng ta phải làm là tạo ra một thay đổi tinh tế cho hàm `double()` mà chúng ta truyền vào `map()`, và mọi thứ vẫn hoạt động:
 
 Khái niệm sử dụng các phép trừu tượng như hàm functors và các hàm bậc cao hơn để sử dụng các hàm tiện ích chung để thao tác với bất kỳ số 
-lượng các kiểu dữ liệu khác nhau nào là quan trọng trong lập trình hàm. Bạn sẽ thấy một khái niệm tương tự được áp dụng trong [tất cả các 
+lượng các kiểu dữ liệu khác nhau nào là quan trọng trong Functional programming. Bạn sẽ thấy một khái niệm tương tự được áp dụng trong [tất cả các 
 cách khác nhau] [9].
 
 > "Danh sách được biểu thị theo thời gian là một luồng."
@@ -202,7 +201,7 @@ cùng một loại tiện ích để xử lý luồng sự kiện đến - thứ
 
 ### Tuyên bố và ra lệnh
 
-Lập trình hàm là một mô hình declarative, có nghĩa là logic chương trình được biểu diễn mà không mô tả rõ ràng điều khiển luồng.
+Functional programming là một mô hình declarative, có nghĩa là logic chương trình được biểu diễn mà không mô tả rõ ràng điều khiển luồng.
 
 Các chương trình ** Imperative ** dành các dòng code mô tả các bước cụ thể được sử dụng để đạt được kết quả mong muốn - điều khiển luồng **: Cách thực hiện **.
 
@@ -230,7 +229,7 @@ Trước khi được chỉ định, trả về hoặc được thông qua, bi�
 
 ### Kết luận
 
-Các dầu hiệu của lập trình hàm:
+Các dầu hiệu của Functional programming:
 
 * Các hàm thuần túy thay vì các tác dụng phụ và trạng thái được chia sẻ
 * Tính bất biến trên dữ liệu thay đổi
