@@ -8,7 +8,7 @@ Các biến và hàm đúng không? Ai cũng có thể học những điều nà
 
 Nhưng thứ gì ở xa hơn cả những điều cơ bản?
 
-**Những trụ cột của Javascript** nào mà bạn nên làm chủ trước khi xem mình là một lập trình viên javascript trung cấp (hoặc thậm chí cao cấp)?
+**Những phần trọng tâm của Javascript** nào mà bạn nên làm chủ trước khi xem mình là một lập trình viên javascript trung cấp (hoặc thậm chí cao cấp)?
 
 Có nhiều thứ như vậy: Scope, Closure, Callbacks, Prototype,...
 
@@ -87,7 +87,7 @@ Trong phần tiếp theo, bạn sẽ khám phá ra cơ quan bộ máy phía sau 
 
 ## Javascript: Execution Context là gì? Các Javascript Engine
 
-Bạn có muốn trở thành một nhà phát triển Javascript trung bình không?
+Bạn có muốn trở thành một nhà phát triển Javascript tầm trung không?
 
 Tôi cá là bạn sẽ không.
 
@@ -159,7 +159,7 @@ _**Engine**: Có vẻ như tôi đã xong._
 
 Nếu tôi hỏi lại bạn: browser "xem" đọan code sau như thế nào, bạn sẽ nói gì?
 
-Ừm, trong như là từ trên xuống dưới nhưng ...
+Ừm, trng như là từ trên xuống dưới nhưng ...
 
 Như bạn có thể thấy engine không chạy hàm pow!
 
@@ -171,7 +171,7 @@ Như bạn có thể thấy engine không chạy hàm pow!
 
 Valentino, tôi đã mơ hồ với Execution Context và bây giờ bạn đang ném Global Memory vào tôi?
 
-Vâng là tôi.
+Vâng đúng vậy.
 
 Hãy xem Global Memory là gì.
 
@@ -204,7 +204,7 @@ Nếu tôi là bạn vào thời điểm này tôi sẽ:
 
 * viết một vài đoạn code Javascript
 * phân tích code từng bước như bạn là engine
-* tạo ra một biểu diễn đồ họa của cả Global Execution context và Global Memory trong quá trình thực hiện
+* tạo ra hình ảnh minh họa đồ họa của cả Global Execution context và Global Memory trong quá trình thực hiện
 
 Bạn có thể viết bài tập trên giấy hoặc bằng công cụ tạo mẫu.
 
