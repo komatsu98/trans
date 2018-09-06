@@ -1,3 +1,5 @@
+## Javascript: Execution Context là gì?Call Stack là gì?
+
 **Execution Context in Javascript** là gì?
 
 Tôi cá là bạn không biết câu trả lời.
@@ -8,7 +10,7 @@ Các biến và hàm đúng không? Ai cũng có thể học những điều nà
 
 Nhưng thứ gì ở xa hơn cả những điều cơ bản?
 
-**Những trụ cột của Javascript** nào mà bạn nên làm chủ trước khi xem mình là một lập trình viên javascript trung cấp (hoặc thậm chí cao cấp)?
+**Những nền tảng của Javascript** nào mà bạn nên làm chủ trước khi xem mình là một lập trình viên javascript trung cấp (hoặc thậm chí cao cấp)?
 
 Có nhiều thứ như vậy: Scope, Closure, Callbacks, Prototype,...
 
@@ -43,7 +45,7 @@ Sự thật là, bên trong Javascript không hề đơn giản.
 
 Nhưng tôi đảm bảo bạn có thể học chúng.
 
-Và ngay khi học chúng, bạn sẽ cảm thấy được trao quyền và thông minh hơn.
+Và ngay khi học chúng, bạn sẽ cảm thấy tự tin và thông minh hơn.
 
 Bằng cách xem xét chức năng bên trong Javascript, bạn sẽ trở thành một nhà phát triển Javascript tốt hơn, ngay cả khi bạn không thể nắm vững từng chi tiết.
 
@@ -61,7 +63,7 @@ Bây giờ, hãy xem đoạn code sau:
 
 Xong?
 
-Nó không có vẻ khó!
+Nó không khó lắm nhỉ !
 
 Giờ cho tôi biết: **browser sẽ định thứ tự như thế nào cho đọan code đó**?
 
@@ -69,7 +71,7 @@ Nói cách khác, nếu BẠN là browser, bạn sẽ đọc đoạn code đó t
 
 Nghe có vẻ khả đơn giản.
 
-Hầu hết mọi người nghĩ rằng "browser sẽ thực hiện hàm pow và trả về kết quả, sau đó gán 2 cho num."
+Hầu hết mọi người nghĩ rằng "yeah , browser sẽ thực hiện hàm pow và trả về kết quả, sau đó gán 2 cho num."
 
 Bạn muốn biết câu trả lời của các học trò tôi không?
 
@@ -99,7 +101,7 @@ Nếu bạn muốn tạo ấn tượng tốt trong một cuộc phỏng vấn Ja
 
 Bạn không thể học mọi thứ trong một ngày. Nó sẽ cần thời gian.
 
-Tin tốt? Tôi sẽ làm cho mọi thứ dễ hiểu đối với mọi người (ít nhất tôi sẽ thử).
+Tin tốt đây? Tôi sẽ làm cho mọi thứ dễ hiểu đối với mọi người (ít nhất tôi sẽ thử).
 
 Để hiểu cách Javascript chạy code của bạn, chúng ta phải đối mặt điều đáng sợ đầu tiên: **Execution Context**.
 
