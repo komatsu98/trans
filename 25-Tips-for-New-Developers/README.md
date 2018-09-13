@@ -1,26 +1,26 @@
 Câu hỏi thường gặp nhất mà tôi nhận được từ những người đọc blog đó là "Anh có lời khuyên gì cho các lập trình viên mới?" Vì vậy, tôi nghĩ đã đến lúc để viết ra suy nghĩ của mình.
 
-Tôi sẽ viết câu chuyện đầy đủ của bản thân trong tương lai, nhưng tôi đã học 2 lớp khoa học máy tính. Sau đó có một khoảng thời gian thực tập ngắn làm kĩ sư phần mềm. Tôi bắt đầu làm công việc phát triển web, bắt đầu với backend và sau cùng là frontend. Trường đại học của tôi hoàn toàn không dạy phát triển web, để một mình với các lớp học khoa học máy tính đầu tiên, vì vậy tôi tự dạy chính mình.
+Tôi sẽ viết toàn bộ câu chuyện của bản thân trong tương lai, nhưng tôi đã học 2 lớp khoa học máy tính. Sau đó có một khoảng thời gian thực tập ngắn làm kĩ sư phần mềm. Tôi bắt đầu làm công việc phát triển web, bắt đầu với backend và sau cùng là frontend. Trường đại học của tôi hoàn toàn không dạy phát triển web, để một mình với các lớp học khoa học máy tính đầu tiên, vì vậy tôi tự dạy chính mình.
 
 Tôi không nghĩ rằng câu chuyện của mình là độc nhất -- tất cả lập trình viên đều tự học lấy vài tấm bằng, dù đó là họ tự học hoàn toàn hay có master trong lĩnh vực khoa học máy tính hướng dẫn, nhưng dù sao thì họ vẫn phải tự học. Thực tế thì, tự học có thể là một trong những kĩ năng quan trọng nhất bạn có thể có nếu là một nhà phát triển. 
 
 Ngoài kinh nghiệm của riêng tôi, tôi cũng dạy mọi người viết code như là công việc chính của tôi và cho các tổ chức tôi tình nguyện - vì vậy bài viết này cũng dựa trên kinh nghiệm đó.
 
-Phần còn lại của bài viết này sẽ là những lời khuyên của tôi để bắt đầu.
+Phần còn lại của bài viết này sẽ là những lời khuyên của tôi để bắt đầu lập trình.
 
 ## Lời khuyên của tôi cho các lập trình viên mới
 
 ### 1\. Tìm lí do cho bản thân và ghi nhớ nó
 
-Nếu bạn muốn bắt đầu lập trình, phải có lý do cho điều đó. Cho dù bạn yêu thích việc code, thì bạn cũng muốn có một nghề nghiệp sinh lợi hơn, hoặc bạn đang làm một loạt công việc Excel và bạn muốn làm cho nó hiệu quả hơn. Theo dõi lý do đó; lập trình rất khó, và đôi khi bạn sẽ cảm thấy thất vọng. Bạn sẽ cần giữ cho lý do đó trong tâm trí để gắn bó với nó. Bạn có thể đặt một lưu ý dính trên máy tính của bạn, một lưu ý trên màn hình chủ của bạn, hoặc (như tôi) viết nó trên gương với một cây bút lông.
+Nếu bạn muốn bắt đầu lập trình, phải có lý do cho điều đó. Cho dù bạn yêu thích việc code, thì bạn cũng muốn có một nghề nghiệp sinh lợi hơn, hoặc bạn đang làm một loạt công việc Excel và bạn muốn làm cho nó hiệu quả hơn. Theo dõi lý do đó; lập trình rất khó, và đôi khi bạn sẽ cảm thấy thất vọng. Bạn sẽ cần giữ cho lý do đó trong tâm trí để gắn bó với nó. Bạn có thể đặt một lưu ý dính trên máy tính của bạn, một lưu ý trên màn hình chính của bạn, hoặc (như tôi) viết nó trên gương với một cây bút lông.
 
 ### 2\. Xây dựng nền tảng vững chắc
 
-Đây có thể là một lời khuyên duy nhất, nhưng tôi nghĩ nó thực sự hữu ích. Trước khi bạn bắt đầu viết code, nếu bạn chưa xem xét toán học trong một thời gian, tôi sẽ gặp lại các khái niệm từ Đại số 1 \. Hầu hết các chương trình được xây dựng trên đại số 1 - tức là, các hàm và các biến. Hiểu được những khái niệm này ngoài chương trình sẽ là siêu có giá trị trong tương lai. Tôi đề xuất [Khan Academy's](https://www.khanacademy.org/math/algebra/) Khóa học Đại số 1!
+Đây có thể là một lời khuyên duy nhất, nhưng tôi nghĩ nó thực sự hữu ích. Trước khi bạn bắt đầu viết code, nếu bạn chưa xem xét toán học trong một thời gian, tôi sẽ gặp lại các khái niệm từ Đại số 1 \. Hầu hết các chương trình được xây dựng trên đại số 1 - tức là, các hàm và các biến. Hiểu được những khái niệm này ngoài chương trình sẽ rất có giá trị trong tương lai. Tôi đề xuất [Khan Academy's](https://www.khanacademy.org/math/algebra/) Khóa học Đại số 1!
 
 ### 3\. Tìm một cộng đồng
 
-Một điều khác sẽ thực sự hữu ích là tìm một cộng đồng để hỗ trợ bạn khi bạn bắt đầu viết code. Cộng đồng này sẽ có giá trị bởi vì những người khác sẽ ở cùng một vị trí với bạn, cung cấp các tài nguyên giúp họ và khuyến khích họ. Tôi khuyên bạn nên tìm kiếm một cuộc gặp mặt trong khu vực của bạn như là giải pháp hàng đầu ở đây, ngay cả những thành phố nhỏ cũng có xu hướng có một nhóm ở gần đó. Nếu không có một, tôi sẽ đề nghị [dev.to](https://dev.to/) và cộng đồng CodeNewbie là hai lựa chọn thay thế tuyệt vời. CodeNewbie có một cuộc trò chuyện trên Twitter hàng tuần, một nhóm Slack và các podcast để nghe. Dev.to có một loạt các bài đăng trên blog và một thẻ #discuss nơi bạn có thể đăng câu hỏi của mình!
+Một điều khác sẽ thực sự hữu ích là tìm một cộng đồng để hỗ trợ bạn khi bạn bắt đầu viết code. Cộng đồng này sẽ có giá trị bởi vì những người khác sẽ ở cùng một vị trí với bạn, cung cấp các tài nguyên giúp đỡ nhau và khuyến khích nhau. Tôi khuyên bạn nên tìm kiếm một cuộc gặp mặt trong khu vực của bạn như là giải pháp hàng đầu ở đây, ngay cả những thành phố nhỏ cũng có xu hướng có một nhóm ở gần đó. Nếu không có một, tôi sẽ đề nghị [dev.to](https://dev.to/) và cộng đồng CodeNewbie là hai lựa chọn thay thế tuyệt vời. CodeNewbie có một cuộc trò chuyện trên Twitter hàng tuần, một nhóm Slack và các podcast để nghe. Dev.to có một loạt các bài đăng trên blog và một thẻ #discuss nơi bạn có thể đăng câu hỏi của mình!
 
 ### 4\. Chia nhỏ vấn đề
 
@@ -36,7 +36,7 @@ Nếu bạn đang học code như một công việc thứ hai, đặc biệt l�
 
 ### 7\. Khởi đầu với các tài nguyên miễn phí
 
-Có cả ngàn lẻ một nguồn tài nguyên để học cách viết code. Một số là miễn phí, và một số phải trả tiền. Tôi sẽ bắt đầu với các tài nguyên miễn phí, đảm bảo bạn thích viết code, và sau đó, bạn có thể nghĩ đến việc chuyển sang tài nguyên trả phí hoặc thậm chí là bootcamp. Tôi có một bài viết về tài nguyên mã miễn phí yêu thích của tôi [ở đây](https://zen-of-programming.com/favorite-free-resources).
+Có cả triệu nguồn tài nguyên để học cách viết code. Một số là miễn phí, và một số phải trả tiền. Tôi sẽ bắt đầu với các tài nguyên miễn phí, đảm bảo bạn thích viết code, và sau đó, bạn có thể nghĩ đến việc chuyển sang tài nguyên trả phí hoặc thậm chí là bootcamp. Tôi có một bài viết về tài nguyên mã miễn phí yêu thích của tôi [ở đây](https://zen-of-programming.com/favorite-free-resources).
 
 ### 8\. Tìm chỗ thích hợp của bạn
 
