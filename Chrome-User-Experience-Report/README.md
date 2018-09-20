@@ -22,7 +22,7 @@ Số liệu được cung cấp bởi Báo cáo trải nghiệm người dùng C
 
 Để được hướng dẫn về số liệu nào cần theo dõi và tối ưu hóa và các phương pháp hay nhất về cách diễn giải dữ liệu đo lường của người dùng thực, hãy tham khảo tài liệu [tâm điểm người dùng] [5] của chúng tôi.
 
-#### First Paint
+#### Khung màn hình đầu tiên 
 
 Được miêu tả bởi [Paint Timing API][6] và [khả dụng trên Chrome M60+][7]:
 
@@ -97,7 +97,7 @@ Khi thực hiện so sánh trực tiếp giữa các nguồn, điều quan trọ
 
 ### Xem xét sự khác biệt về quy mô tập trung trên nguồn
 
-Báo cáo trải nghiệm người dùng Chrome tổng hợp dữ liệu cho mỗi nguồn, với các giá trị "mật độ" trên tất cả các biểu đồ thứ nguyên-số liệu tổng hợp với giá trị là "1.0". Điều này cung cấp thông tin chi tiết về phân phối trải nghiệm trên các thứ nguyên chính cho một nguồn duy nhất.
+Báo cáo trải nghiệm người dùng Chrome tổng hợp dữ liệu cho mỗi nguồn, với các giá trị "mật độ" trên tất cả các biểu đồ dimension-metric tổng hợp với giá trị là "1.0". Điều này cung cấp thông tin chi tiết về phân phối trải nghiệm trên các thứ nguyên chính cho một nguồn duy nhất.
 
 Tuy nhiên, khi tổng hợp dữ liệu từ nhiều nguồn, ví dụ trong ngành dọc hoặc khu vực địa lý, hãy cẩn thận với các loại kết luận được rút ra: việc tăng mật độ cho cùng một số liệu trên nhiều nguồn không tính đến sự khác biệt về sự tập trung tương đối trên nguồn.
 
