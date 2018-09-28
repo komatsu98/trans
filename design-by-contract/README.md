@@ -7,19 +7,19 @@
 
 Quy trình thiết kế theo hợp đồng
 
-**Thiết kế theo hợp đồng** (**DbC**), còn được biết đến như là **lập trình hợp đồng**, **lập trình theo hợp đồng** hay **lập trình thiết-kế-theo-hợp-đồng**, là một hướng tiếp cận cho việc thiết kế [phần mềm][2]. Kĩ thuật này quy định rằng các nhà thiết kế nên xác định [formal][3], các thông số kĩ thuật giao diện chính xác và có thể kiểm chứng được cho [các thành phần của phần mềm][4], mở rộng định nghĩa thông thường của [kiểu dữ liệu abstract][5] với [các điều kiện tiên quyết][6], [điều kiện sau][7] và [bất biến][8]. 	Các thông số kỹ thuật này được gọi là "hợp đồng", phù hợp với [phép ẩn dụ khái niệm][9] với các điều kiện và nghĩa vụ của hợp đồng kinh doanh. 
+**Thiết kế theo hợp đồng** (**DbC**), còn được biết đến như là **lập trình hợp đồng**, **lập trình theo hợp đồng** hay **lập trình thiết-kế-theo-hợp-đồng**, là một hướng tiếp cận cho việc thiết kế [phần mềm][2]. Kĩ thuật này quy định rằng các nhà thiết kế nên xác định [formal][3], tóm lược và kiểm chứng các đặc điểm của giao diện cho [các thành phần của phần mềm][4], mở rộng định nghĩa thông thường của [kiểu dữ liệu abstract][5] với [các điều kiện tiên quyết][6], [điều kiện sau][7] và [bất biến][8]. 	Các thông số kỹ thuật này được gọi là "hợp đồng", phù hợp với [phép ẩn dụ khái niệm][9] với các điều kiện và nghĩa vụ của hợp đồng kinh doanh. 
 
 Cách tiếp cận DbC giả định tất cả các thành phần client gọi một hoạt động trên một thành phần server sẽ đáp ứng các điều kiện tiên quyết được xác định theo yêu cầu cho hoạt động đó. Trường hợp giả định này được coi là quá rủi ro (như trong server đa kênh hoặc server phân tán) thì phương pháp _ "[defensive design][10]" _ được thực hiện, nghĩa là một thành phần server kiểm tra (trước hoặc trong khi xử lý request của client) rằng tất cả các điều kiện tiên quyết có liên quan đều đúng và trả lời bằng thông báo lỗi phù hợp nếu không. 
 
 ## Nội dung
 
-Ý tưởng trung tâm của DbC là một phép ẩn dụ về cách các phần tử của một hệ thống phần mềm cộng tác với nhau trên cơ sở _nghĩa vụ_ lẫn _lợi ích_ chung. Ẩn dụ xuất phát từ cuộc sống kinh doanh, nơi một "khách hàng" và "nhà cung cấp" đồng ý về "hợp đồng" xác định, ví dụ,: 
+Tư tưởng cốt lõi của DbC là một phép ẩn dụ về cách các phần tử của một hệ thống phần mềm cộng tác với nhau trên cơ sở _nghĩa vụ_ lẫn _lợi ích_ chung. Ẩn dụ xuất phát từ cuộc sống kinh doanh, nơi một "khách hàng" và "nhà cung cấp" đồng ý về "hợp đồng" xác định, ví dụ,: 
 
 * Nhà cung cấp phải cung cấp một sản phẩm nhất định (nghĩa vụ) và có quyền mong đợi rằng khách hàng thanh toán phí (lợi ích) của mình.
 * Khách hàng phải trả phí (nghĩa vụ) và được quyền nhận sản phẩm (lợi ích).
 * Cả hai bên phải đáp ứng các nghĩa vụ nhất định, chẳng hạn như luật và quy định, áp dụng cho tất cả các hợp đồng.
 
-Tương tự, nếu một thường trình từ [class][11] trong [lập trình hướng đối tượng][12] cung cấp một chức năng nhất định, nó có thể:
+Tương tự, nếu một ch trình từ [class][11] trong [lập trình hướng đối tượng][12] cung cấp một chức năng nhất định, nó có thể:
 
 * Mong đợi một điều kiện nhất định được đảm bảo khi nhập vào bởi bất kỳ mô-đun khách hàng nào gọi nó là: điều kiện tiên quyết [6] — nghĩa vụ cho khách hàng, và lợi ích cho nhà cung cấp (bản thân thường trình), vì nó giải phóng nó để xử lý các trường hợp ngoài điều kiện tiên quyết.
 * Đảm bảo một tài sản nhất định khi thoát ra: [điều kiện tiên quyết][7] của thường trình — nghĩa vụ cho nhà cung cấp, và rõ ràng là một lợi ích (lợi ích chính của việc gọi thường trình) cho khách hàng.
@@ -48,7 +48,7 @@ Các lớp con trong [phân cấp thừa kế][23] được phép làm suy yếu
 
 Tất cả các mối quan hệ class là giữa các class client và các class cung cấp. Một class client có nghĩa vụ thực hiện các lời gọi đến các tính năng của nhà cung cấp, nơi trạng thái kết quả của nhà cung cấp không bị vi phạm bởi lời gọi của khách hàng. Sau đó, nhà cung cấp có nghĩa vụ cung cấp trạng thái trả lại và dữ liệu không vi phạm các yêu cầu của trạng thái của khách hàng. Ví dụ, bộ đệm dữ liệu của nhà cung cấp có thể yêu cầu dữ liệu đó có trong bộ đệm khi một tính năng xóa được gọi. Sau đó, nhà cung cấp đảm bảo cho khách hàng rằng khi một tính năng xóa kết thúc công việc của nó, mục dữ liệu sẽ, thực sự, sẽ bị xóa khỏi bộ đệm. Các hợp đồng thiết kế khác là các khái niệm về "bất biến lớp". Lớp bảo đảm bất biến (đối với lớp địa phương) rằng trạng thái của lớp sẽ được duy trì trong các dung sai được chỉ định ở cuối mỗi thực thi tính năng.
 
-Khi sử dụng hợp đồng, nhà cung cấp không nên cố gắng xác minh rằng các điều kiện hợp đồng được thỏa mãn; ý tưởng chung là code nên "thất bại", với xác minh hợp đồng là mạng lưới an toàn. Thuộc tính "fail hard" của DbC đơn giản hoá việc gỡ rối hành vi hợp đồng, vì hành vi dự định của mỗi thường trình được xác định rõ ràng. Điều này phân biệt nó một cách rõ rệt từ một thực hành liên quan được gọi là [defensive programming][25], nơi mà nhà cung cấp chịu trách nhiệm tìm ra những việc cần làm khi điều kiện tiên quyết bị phá vỡ. Thường xuyên hơn không, nhà cung cấp ném một ngoại lệ để thông báo cho khách hàng rằng điều kiện tiên quyết đã bị phá vỡ, và trong cả hai trường hợp - DbC và defensive programming — khách hàng phải tìm ra cách để đáp ứng điều đó. DbC giúp công việc của nhà cung cấp dễ dàng hơn. 
+Khi sử dụng hợp đồng, nhà cung cấp không nên cố gắng xác minh rằng các điều kiện hợp đồng được thỏa mãn; ý tưởng chung là code nên "thất bại", đưa xác minh hợp đồng vào lưới an toàn. Thuộc tính "fail hard" của DbC đơn giản hoá việc gỡ rối hành vi hợp đồng, vì hành vi dự định của mỗi thường trình được xác định rõ ràng. Điều này phân biệt nó một cách rõ rệt từ một thực hành liên quan được gọi là [defensive programming][25], nơi mà nhà cung cấp chịu trách nhiệm tìm ra những việc cần làm khi điều kiện tiên quyết bị phá vỡ. Thường xuyên hơn không, nhà cung cấp ném một ngoại lệ để thông báo cho khách hàng rằng điều kiện tiên quyết đã bị phá vỡ, và trong cả hai trường hợp - DbC và defensive programming — khách hàng phải tìm ra cách để đáp ứng điều đó. DbC giúp công việc của nhà cung cấp dễ dàng hơn. 
 
 Thiết kế theo hợp đồng cũng xác định tiêu chí cho tính chính xác cho một module phần mềm:
 
