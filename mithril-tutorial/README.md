@@ -1,7 +1,7 @@
 
 [Source](https://mithril.js.org/simple-application.html "Permalink to Simple application - Mithril.js")
 
-# Simple application - Mithril.js
+# Ứng dụng đơn giản - Mithril.js
 
 * Getting Started
 * Resources
@@ -9,12 +9,11 @@
 * Social
 * Misc
 
-Let's develop a simple application that covers some of the major aspects of Single Page Applications
+Hãy cùng xây dựng một ứng dụng đơn giản bao gồm một số khía cạnh chính của Single Page Applications
 
-An interactive running example can be seen here [flems: Simple Application][1]
+Một ví dụ chạy tương tác có thể tham khảo ở đây [flems: Simple Application] [1]
 
-First let's create an entry point for the application. Create a file `index.html`:
-    
+Đầu tiên hãy tạo entry point cho ứng dụng. Tạo file `index.html`:
     
     
     
@@ -29,17 +28,17 @@ First let's create an entry point for the application. Create a file `index.html
     
     
 
-The `` line indicates this is an HTML 5 document. The first `charset` meta tag indicates the encoding of the document and the `viewport` meta tag dictates how mobile browsers should scale the page. The `title` tag contains the text to be displayed on the browser tab for this application, and the `script` tag indicates what is the path to the Javascript file that controls the application.
+`` Dòng cho biết đây là một tài liệu HTML 5. Thẻ meta `charset` đầu tiên cho biết mã hóa của tài liệu và thẻ meta `viewport` quy định cách các trình duyệt di động mở rộng quy mô trang. Thẻ `title` chứa văn bản được hiển thị trên tab trình duyệt cho ứng dụng này và thẻ `script` cho biết đường dẫn đến tệp Javascript điều khiển ứng dụng là gì.
 
-We could create the entire application in a single Javascript file, but doing so would make it difficult to navigate the codebase later on. Instead, let's split the code into _modules_, and assemble these modules into a _bundle_ `bin/app.js`.
+Chúng ta có thể tạo toàn bộ ứng dụng trong một tệp Javascript duy nhất, nhưng làm như vậy sẽ khiến việc điều hướng codebase trở nên khó khăn hơn về sau. Thay vào đó, hãy chia code thành các _module_ và lắp ráp các module này thành một _bundle_ `bin / app.js`.
 
-There are many ways to setup a bundler tool, but most are distributed via NPM. In fact, most modern Javascript libraries and tools are distributed that way, including Mithril. NPM stands for Node.js Package Manager. To download NPM, [install Node.js][2]; NPM is installed automatically with it. Once you have Node.js and NPM installed, open the command line and run this command:
+Có nhiều cách cài đặt một tool để bundle, nhưng hầu hết chúng đều được phân phối qua NPM. Trong thực tế, hầu hết các thư viện và công cụ Javascript hiện đại được phân phối theo cách đó, bao gồm Mithril. NPM là viết tắt của Node.js Package Manager. Để tải xuống NPM, [cài đặt Node.js] [2]; NPM được cài đặt tự động với nó. Khi bạn đã cài đặt Node.js và NPM, hãy mở cml và chạy lệnh này:
     
     
     npm init -y
     
 
-If NPM is installed correctly, a file `package.json` will be created. This file will contain a skeleton project meta-description file. Feel free to edit the project and author information in this file.
+Nếu NPM được cài đặt đúng, một tệp `package.json` sẽ được tạo ra. Tệp này sẽ chứa tệp meta-description cốt lõi của dự án. Ta có thể tùy chỉnh thông tin dự án và tác giả trong tệp này.
 
 * * *
 
