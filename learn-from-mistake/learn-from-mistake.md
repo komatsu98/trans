@@ -12,10 +12,10 @@ với một sự khác biệt quan trọng: chỉ cố gắng thôi là không �
 nhanh hơn phần còn lại. Và dù không có gì là sai khi cố gắng đạt đến sự hoàn hảo, nhưng trong thế giới kỹ thuật số ngày nay,
 bạn không còn có thể đợi cho đến khi sản phẩm gần hoàn hảo rồi mới cung cấp cho khách hàng. Nếu vậy, bạn sẽ bị bỏ lại phía sau trong thị trường của bạn.
 
-Vậy nếu như bạn không thể chờ đợi sự hoàn hảo, thì bạn nên làm gì? Tôi tin rằng câu trả lời là hãy thực nghiệm với sự phát triển sản phầm của bạn,
+Vậy nếu như bạn không thể chờ đợi sự hoàn hảo, thì bạn nên làm gì? Tôi tin rằng câu trả lời là hãy tích cực thực nghiệm với sự phát triển sản phầm của bạn,
 chấp nhận khả năng rằng một số thí nghiệm của bạn sẽ thất bại.
 
-Bất cứ ai đã từng lắng nghe, hay làm việc với các bậc thầy về quản trị đều biết câu thần chú của họ: Thất bại là một phần tất yêu của sự phát triển.
+Bất cứ ai đã từng lắng nghe, hay làm việc với các quản lí giàu kinh nghiệm đều biết câu thần chú của họ: Thất bại là một phần tất yêu của sự phát triển.
 Đúng vậy, nhưng thường có một khoảng cách lớn giữa lí thuyết quản trị và trên thực tế. Người ta muốn thử nghiệm và học từ những điều sai lầm. Nhưng
 trong dòng xoáy của việc kinh doanh hằng ngày, họ không có đủ thời gian để thực sự phản ánh về nguyên nhân gây ra lỗi và xác định phải làm gì khác
 trong lần tiếp theo.
@@ -25,10 +25,10 @@ Giải pháp là tìm một hướng tiếp cận có hệ thống để ngăn c
 **Từ sự hoàn hảo đến khả năng loại bỏ sự yếu kém**
 
 Trong việc tìm kiếm một cách có hệ thống như vậy, trước tiên bạn cần phải phân biệt giữa hai loại lỗi có thể xảy ra trong công ty của bạn:
-những công nghệ và những quyết định của con người. Điều tốt là: nếu bạn biết cách xử lí hiệu quả với cái đầu tiên, bạn có thể sẽ trở nên tốt hơn
+những công nghệ và những quyết định của con người. Điều tốt là: nếu bạn biết cách xử lí hiệu quả với cái đầu tiên, bạn có thể sẽ làm tốt hơn
 ở cái thứ hai, đưa ra quyết định tốt hơn. Nhà toán học tài chính và nhà viết luận Nassim Taleb đưa ra một cách tiếp cận thú vị về vấn đề này.
 Ông đã lập luận rằng các lỗi rất có giá trị bởi vì chúng dẫn đến sự đổi mới. Ông sử dụng thuật ngữ "khả năng loại bỏ sự yếu kém" để minh họa cho quan điểm của mình.
-Các mô hình kinh doanh kỹ thuật số ngày nay yêu cầu các bản phát hành nhỏ hơn, thường xuyên hơn để giảm rủi ro. Điều đó có nghĩa là nền tảng công nghệ
+Các mô hình kinh doanh điện tử hóa ngày nay yêu cầu các bản phát hành nhỏ hơn, thường xuyên hơn để giảm rủi ro. Điều đó có nghĩa là nền tảng công nghệ
 những mô hình kinh doanh mới này không chỉ cần phải mạnh mẽ. Chúng phải 'loại bỏ được sự yếu kém'.
 Các tính năng chính của công nghệ 'loại bỏ sự yếu kém' là nó có thể 'lỗi' mà không bị đổ vỡ.
 Trong thực tế, một cuộc khủng hoảng có thể làm cho nó tốt hơn.
@@ -57,7 +57,7 @@ số hóa các máy móc cũ và kết nối chúng với đám mây trong một
 
 Nếu bạn muốn có 'khả năng loại bỏ sự yếu kém', mạnh mẽ hơn, như HARTING và các công ty khác, bạn cần phải chủ động tìm kiếm những điểm yếu trong một hệ thống
 khi bạn thử nghiệm. Trong một hệ thống muốn phát triển, tất cả các loại lỗi sẽ xảy ra mà bạn không thể lường trước, đặc biệt là khi các hệ thống cần phải
-mở rộng quy mô vào các 'lãnh thổ' không xác định. Vì vậy, hãy buốc hệ thống của bạn bị lỗi liên tục và làm cho các hệ thống phụ thất bại một cách nhân tạo
+mở rộng quy mô ở mức không xác định. Vì vậy, hãy buộc hệ thống của bạn bị lỗi liên tục và làm cho các hệ thống con thất bại một cách nhân tạo
 bằng cách sử dụng các công cụ như Chaos Monkey của Netflix.
 
 Nếu bạn làm tất cả điều này, bạn sẽ bắt đầu nhìn nhận khách quan các lỗi tại công ty của bạn và xử lý chúng một cách bình thường. Và khi lỗi trở thành
@@ -85,7 +85,7 @@ chúng tôi biết chính xác những gì đã xảy ra và khách hàng nào b
 
 Khá thường xuyên, áp dụng cách tiếp cận nguyên-nhân-gây-ra-lỗi này cho phép chúng ta tìm ra những đổi mới đột phá, theo tinh thần của Nassim Taleb.
 Đó là cách mà giải pháp Auto Scaling được tạo ra, sau khi một phân đoạn khách hàng nhất định đang chiến đấu với các lần truy cập dao động mạnh trên
-trang web của họ. Khi lượt truy cập tăng ở một trang web, Auto Scaling tự động xoay một máy chủ web bổ sung để phục vụ số lượng yêu cầu tăng lên. Ngược lại,
+trang web của họ. Khi lượt truy cập tăng ở một trang web, Auto Scaling tự động mở một máy chủ web bổ sung để phục vụ số lượng yêu cầu tăng lên. Ngược lại,
 khi lượt truy cập giảm xuống, Auto Scaling sẽ tắt các máy chủ web không cần thiết để tiết kiệm chi phí.
 
 Những gì nó tiết lộ là: Các tổ chức cần phải nhìn xa hơn thành công bề ngoài. Điều này đúng cho sự phát triển của các hệ thống cũng như các mô hình kinh doanh.
@@ -111,7 +111,7 @@ sai lầm có thể ít tốn kém hơn bạn nghĩ, trong khi chậm chạp s�
 
 Tôi đã nhấn mạnh sự cần thiết cho các công ty về việc có một cách tiếp cận có hệ thống về cách họ xử lý các lỗi. Nhưng cách tiếp cận của bạn sẽ chỉ
 hoạt động nếu nó là một phần của văn hóa tổng thể của bạn. Hãy chắc chắn rằng bạn hiểu DNA của bạn và biết những gì mọi người đang suy nghĩ và
-nói về trên sàn làm việc. Ca ngợi thử nghiệm một cách cởi mở trong phát triển sản phẩm và khuyến khích mọi người tìm thấy lỗi sẽ chỉ là lời nói sáo rỗng
+nói về ở nơi làm việc. Ca ngợi thử nghiệm một cách cởi mở trong phát triển sản phẩm và khuyến khích mọi người tìm thấy lỗi sẽ chỉ là lời nói sáo rỗng
 nếu nhân viên của bạn thực sự có lý do để lo sợ hậu quả cho bản thân họ nếu họ phạm sai lầm.
 
 Vấn đề của tính lãnh đạo khi nuôi dưỡng và định hình một nền văn hóa thử nghiệm đó là thực hành ngày này qua ngày khác.
