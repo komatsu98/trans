@@ -10,7 +10,7 @@ gặp phải khi apply một vị trí giữa hoặc cao cấp về JavaScript. 
 vấn trên thực tế.
 
 Functional programming (lập trình hàm hay lập trình chức năng) đã trở thành một chủ đề nóng trong thế giới JavaScript. Chỉ vài năm trước, vài lập trình viên JavaScript thậm chí còn không 
-biết Functional programming là gì, nhưng mỗi ứng dụng với codebase lớn mà tôi đã thấy trong 3 năm qua đều sử dụng nhiều ý tưởng Functional programming.
+biết Functional programming là gì, nhưng mỗi ứng dụng với codebase lớn mà tôi đã thấy trong 3 năm qua đều mang tư tưởng của Functional programming.
 
 ** Functional programming ** (thường được viết tắt là FP) là quá trình xây dựng phần mềm bằng cách compose các ** hàm thuần túy **, tránh ** trạng 
 thái chia sẻ, ** ** dữ liệu không bất biến, ** và ** tác dụng phụ **.
@@ -19,11 +19,11 @@ Functional programming là một **cơ chế lập trình**, có nghĩa nó là 
 định (được liệt kê ở trên). Các ví dụ khác về cơ chế lập trình bao gồm lập trình hướng đối tượng và lập trình thủ tục.
 
 Functional code có xu hướng ngắn gọn hơn, dễ dự đoán hơn và dễ kiểm tra hơn code bắt buộc hoặc hướng đối tượng - nhưng nếu bạn không quen với nó và 
-các pattern phổ biến liên quan đến nó, functional code cũng có thể nặng nề hơn và tài liệu liên quan có thể khó hiểu đối với người mới đến.
+các pattern phổ biến liên quan đến nó, functional code cũng có thể nặng nề hơn và tài liệu liên quan có thể khó hiểu đối với người mới.
 
 Nếu bạn bắt đầu google các điều kiện Functional programming, bạn sẽ nhanh chóng gặp phải một bức tường của ngôn ngữ học thuật có thể rất 
 đáng sợ cho người mới bắt đầu. Nói rằng nó có một đường cong học tập là một cách nói giảm nghiêm trọng. Nhưng nếu bạn đã lập trình JavaScript 
-trong một thời gian, rất có thể là bạn đã sử dụng rất nhiều khái niệm và tiện ích lập trình chức năng trong phần mềm thực của bạn.
+trong một thời gian, rất có thể là bạn đã sử dụng rất nhiều khái niệm và tiện ích lập trình hàm trong phần mềm thực của bạn.
 
 > Đừng để tất cả những từ ngữ mới làm bạn sợ hãi. Nó dễ hơn rất nhiều so với những gì nó nói.
 
@@ -43,13 +43,13 @@ Một **pure function** là hàm mà:
 
 Các hàm thuần túy có rất nhiều thuộc tính quan trọng trong Functional programming, bao gồm ** tính minh bạch tham chiếu ** (bạn có thể thay thế một lời gọi hàm với giá trị kết quả của nó mà không thay đổi ý nghĩa của chương trình). Đọc ["Pure function là gì?"] [2] để biết thêm chi tiết.
 
-** Function composition ** là quá trình kết hợp hai hoặc nhiều hàm để tạo ra một hàm mới hoặc thực hiện một số tính toán. Ví dụ, tổ hợp `f. g` 
+**Function composition** là quá trình kết hợp hai hoặc nhiều hàm để tạo ra một hàm mới hoặc thực hiện một số tính toán. Ví dụ, tổ hợp `f. g` 
 (dấu chấm có nghĩa là "hợp với") tương đương với `f (g (x))` trong JavaScript. Hiểu biết về  function composition là một bước quan trọng 
 hướng tới sự hiểu biết cách phần mềm được xây dựng bằng cách sử dụng Functional programming. Đọc ["Function composition là gì?"] [3] để biết thêm.
 
 ### Shared State
 
-** Shared state ** (trạng thái được chia sẻ) là bất kỳ biến, đối tượng hoặc không gian bộ nhớ nào tồn tại trong một phạm vi chia sẻ hoặc là thuộc tính của một đối tượng được truyền
+**Shared state** (trạng thái được chia sẻ) là bất kỳ biến, đối tượng hoặc không gian bộ nhớ nào tồn tại trong một phạm vi chia sẻ hoặc là thuộc tính của một đối tượng được truyền
 giữa các phạm vi. Một phạm vi chia sẻ có thể bao gồm phạm vi toàn cục hoặc đóng kín. Thông thường, trong lập trình hướng đối tượng, các đối tượng được chia sẻ
 giữa các phạm vi bằng cách thêm các thuộc tính cho các đối tượng khác.
 
@@ -86,17 +86,14 @@ Trong ví dụ trên, chúng ta sử dụng `Object.assign()` và truyền vào 
 Nếu bạn xem xét kỹ các câu lệnh `console.log()` trong ví dụ này, bạn sẽ thấy một cái gì đó mà tôi đã đề cập: hàm hợp. Nhớ lại từ trước, hàm hợp trông giống như sau: `f (g (x))`. Trong trường hợp này, chúng ta thay thế `f()` và `g()` bằng `x1()`
 và `x2()` cho thành phần: `x1. x2`.
 
-Tất nhiên, nếu bạn thay đổi thứ tự của tổ hợp, đầu ra sẽ thay đổi. Thứ tự của các hoạt động vẫn còn quan trọng. `f(g(x))` không phải lúc 
-nào cũng bằng `g(f(x))`, nhưng những gì không quan trọng nữa là những gì xảy ra với các biến bên ngoài hàm - và đó là một vấn đề lớn. 
-Với hàm không thuần túy, bạn không thể hiểu đầy đủ chức năng của một chức năng trừ khi bạn biết toàn bộ lịch sử của mọi biến mà hàm 
-sử dụng hoặc ảnh hưởng.
+Tất nhiên, nếu bạn thay đổi thứ tự của tổ hợp, đầu ra sẽ thay đổi. Thứ tự của các hoạt động vẫn còn quan trọng. `f(g(x))` không phải lúc nào cũng bằng `g(f(x))`, nhưng những gì không quan trọng nữa là những gì xảy ra với các biến bên ngoài hàm - và đó là một vấn đề lớn. 
+Với hàm không thuần túy, bạn không thể hiểu đầy đủ chức năng của một chức năng trừ khi bạn biết toàn bộ lịch sử của mọi biến mà hàm sử dụng hoặc ảnh hưởng.
 
 Loại bỏ phụ thuộc thời gian lời gọi hàm và bạn sẽ loại bỏ toàn bộ lớp lỗi tiềm ẩn.
 
 ### Tính bất biến
 
-Một đối tượng ** không thay đổi ** là một đối tượng không thể sửa đổi sau khi nó được tạo ra. Ngược lại, một đối tượng ** có thể thay đổi 
-** là bất kỳ đối tượng nào có thể được sửa đổi sau khi nó được tạo.
+Một đối tượng **không thay đổi** là một đối tượng không thể sửa đổi sau khi nó được tạo ra. Ngược lại, một đối tượng **có thể thay đổi** là bất kỳ đối tượng nào có thể được sửa đổi sau khi nó được tạo.
 
 Tính bất biến là một khái niệm trung tâm về  Functional programming bởi vì nếu không có nó, luồng dữ liệu trong chương trình của bạn sẽ bị mất mát. Lịch 
 sử trạng thái bị bỏ qua và các lỗi lạ có thể xâm nhập vào phần mềm của bạn. Để biết thêm về tầm quan trọng của bất biến, hãy xem ["Dao của tính bất biến."] [5]
@@ -111,13 +108,12 @@ JavaScript có một phương thức đóng băng một đối tượng một-m�
 Nhưng các đối tượng bị đóng băng chỉ là bất biến bề ngoài. Ví dụ: đối tượng sau có thể thay đổi:
 
 Như bạn có thể thấy, các thuộc tính nguyên thủy cấp cao nhất của một đối tượng bị đóng băng không thể thay đổi, nhưng bất kỳ thuộc tính nào 
-đồng thời là một đối tượng (bao gồm mảng, vv…) vẫn có thể bị biến đổi - vì vậy ngay cả đối tượng bị đóng băng cũng không phải bất biến trừ khi bạn đi đến
-bộ toàn bộ cây đối tượng và đóng băng mọi thuộc tính của nó.
+đồng thời là một đối tượng (bao gồm mảng, vv…) vẫn có thể bị biến đổi - vì vậy ngay cả đối tượng bị đóng băng cũng không phải bất biến trừ khi bạn đi đến toàn bộ cây đối tượng và đóng băng mọi thuộc tính của nó.
 
-Trong nhiều ngôn ngữ Functional programming, có các cấu trúc dữ liệu bất biến đặc biệt gọi là ** cấu trúc dữ liệu trie ** (phát âm là "tree") được 
+Trong nhiều ngôn ngữ Functional programming, có các cấu trúc dữ liệu bất biến đặc biệt gọi là **cấu trúc dữ liệu trie** (phát âm là "tree") được 
 đóng băng sâu - nghĩa là không có thuộc tính nào có thể thay đổi, bất kể mức độ của thuộc tính trong hệ thống phân cấp đối tượng.
 
-Các trie sử dụng ** chia sẻ có cấu trúc ** để chia sẻ các vị trí bộ nhớ tham chiếu cho tất cả các phần của đối tượng không thay đổi sau 
+Các trie sử dụng **chia sẻ có cấu trúc** để chia sẻ các vị trí bộ nhớ tham chiếu cho tất cả các phần của đối tượng không thay đổi sau 
 khi đối tượng được sao chép bởi một toán tử, sử dụng ít bộ nhớ hơn và cho phép cải thiện hiệu suất đáng kể cho một số loại hoạt động.
 
 Ví dụ, bạn có thể sử dụng so sánh nhận dạng tại gốc của cây đối tượng để so sánh. Nếu danh tính giống nhau, bạn không phải đi đến cả cây để 
@@ -125,8 +121,7 @@ kiểm tra sự khác biệt.
 
 Có một số thư viện trong JavaScript tận dụng triệt để các trie, bao gồm [Immutable.js] [6] và [Mori] [7].
 
-Tôi đã thử nghiệm với cả hai, và có xu hướng sử dụng Immutable.js trong các dự án lớn đòi hỏi một lượng đáng kể trạng thái bất biến. Để 
-biết thêm về điều đó, hãy xem ["10 mẹo để có cấu trúc Redux tốt hơn"] [4].
+Tôi đã thử nghiệm với cả hai, và có xu hướng sử dụng Immutable.js trong các dự án lớn đòi hỏi một lượng đáng kể trạng thái bất biến. Để biết thêm về điều đó, hãy xem ["10 mẹo để có cấu trúc Redux tốt hơn"] [4].
 
 ### Tác dụng phụ
 
@@ -143,12 +138,9 @@ Một tác dụng phụ là bất kỳ thay đổi trạng thái ứng dụng n�
 Tác dụng phụ hầu hết phải tránh trong Functional programming, làm cho hiệu ứng của một chương trình dễ hiểu hơn nhiều và dễ dàng hơn nhiều để 
 kiểm tra.
 
-Haskell và các ngôn ngữ hàm khác thường tách biệt và đóng gói các hiệu ứng phụ từ các hàm thuần túy bằng [** monads **] [8]. Chủ đề 
-của các monads đủ sâu để viết một cuốn sách, vì vậy ta sẽ lưu lại cuốn sách đó cho sau này.
+Haskell và các ngôn ngữ hàm khác thường tách biệt và đóng gói các hiệu ứng phụ từ các hàm thuần túy bằng [**monads**] [8]. Chủ đề của các monads đủ sâu để viết một cuốn sách, vì vậy ta sẽ lưu lại cuốn sách đó cho sau này.
 
-Những gì bạn cần biết ngay bây giờ là các tác vụ phụ cần phải được phân lập với phần còn lại của phần mềm của bạn. Nếu bạn giữ các tác 
-dụng phụ tách biệt với phần còn lại của logic chương trình, phần mềm của bạn sẽ dễ dàng hơn để mở rộng, tái cấu trúc, gỡ lỗi, kiểm tra và 
-bảo trì.
+Những gì bạn cần biết ngay bây giờ là các tác vụ phụ cần phải được phân lập với phần còn lại của phần mềm của bạn. Nếu bạn giữ các tác dụng phụ tách biệt với phần còn lại của logic chương trình, phần mềm của bạn sẽ dễ dàng hơn để mở rộng, tái cấu trúc, gỡ lỗi, kiểm tra và bảo trì.
 
 Đây là lý do mà hầu hết các framework front-end khuyến khích người dùng quản lý hiển thị trạng thái và thành phần trong các mô-đun 
 riêng biệt, được ghép nối lỏng lẻo.
@@ -159,14 +151,12 @@ Functional programming có xu hướng tái sử dụng lại một tập hợp 
 hướng phân bổ phương pháp và dữ liệu trong các đối tượng. Những phương được pháp phân bổ chỉ có thể hoạt động trên loại dữ liệu mà chúng 
 được thiết kế để hoạt động và thường chỉ có dữ liệu chứa trong cá thể đối tượng cụ thể đó..
 
-Trong Functional programming, bất kỳ loại dữ liệu nào đều là trò chơi công bằng. Cùng một tiện ích `map()` có thể ánh xạ đối tượng, chuỗi, số 
-hoặc bất kỳ kiểu dữ liệu nào khác vì nó lấy hàm làm đối số xử lý thích hợp loại dữ liệu đã cho. FP rút ra thủ thuật tiện ích chung của nó 
-bằng cách sử dụng ** các hàm bậc cao hơn **.
+Trong Functional programming, bất kỳ loại dữ liệu nào đều là tương đương. Cùng một tiện ích `map()` có thể ánh xạ đối tượng, chuỗi, số hoặc bất kỳ kiểu dữ liệu nào khác vì nó lấy hàm làm đối số xử lý thích hợp loại dữ liệu đã cho. FP rút ra thủ thuật tiện ích chung của nó bằng cách sử dụng **các hàm bậc cao hơn **.
 
-JavaScript có ** các lớp hàm đầu tiên **, cho phép chúng ta xử lý các hàm như dữ liệu - gán chúng cho các biến, chuyển chúng đến các hàm 
+JavaScript có **các lớp hàm đầu tiên**, cho phép chúng ta xử lý các hàm như dữ liệu - gán chúng cho các biến, chuyển chúng đến các hàm 
 khác, trả về chúng từ các hàm, v.v.
 
-Hàm ** thứ tự cao hơn ** là bất kỳ hàm nào nhận hàm làm đối số, trả về hàm hoặc cả hai. Các hàm bậc cao thường được sử dụng để:
+Hàm **bậc cao hơn** là bất kỳ hàm nào nhận hàm làm đối số, trả về hàm hoặc cả hai. Các hàm bậc cao thường được sử dụng để:
 
 * Tóm tắt hoặc cô lập hành động, hiệu ứng hoặc điều khiển luồng không đồng bộ bằng cách sử dụng hàm callback, promise, monad, v.v.
 * Tạo các tiện ích có thể hoạt động trên nhiều loại dữ liệu khác nhau
@@ -207,11 +197,11 @@ Các chương trình ** Imperative ** dành các dòng code mô tả các bướ
 
 Các chương trình **Declarative** trừu tượng quá trình kiểm soát luồng, và thay vào đó dành các dòng code mô tả **luồng dữ liệu: Điều gì ** để làm. _Làm thế nào_ để bị tóm tắt .
 
-Ví dụ, ánh xạ ** Imperative ** này lấy một mảng các số và trả về một mảng mới với mỗi số nhân với 2:
+Ví dụ, ánh xạ **Imperative** này lấy một mảng các số và trả về một mảng mới với mỗi số nhân với 2:
 
-Ánh xạ ** Declarative ** này cũng làm điều tương tự, nhưng tóm tắt điều khiển luồng bằng cách sử dụng tiện ích hàm `Array.prototype.map()`, cho phép bạn thể hiện rõ ràng luồng dữ liệu:
+Ánh xạ **Declarative** này cũng làm điều tương tự, nhưng tóm tắt điều khiển luồng bằng cách sử dụng tiện ích hàm `Array.prototype.map()`, cho phép bạn thể hiện rõ ràng luồng dữ liệu:
 
-Code ** Imperative ** bắt buộc thường xuyên sử dụng các câu lệnh. **Câu lệnh** là một đoạn code thực hiện một số hành động. Ví dụ về các câu lệnh thường 
+Code **Imperative** bắt buộc thường xuyên sử dụng các câu lệnh. **Câu lệnh** là một đoạn code thực hiện một số hành động. Ví dụ về các câu lệnh thường 
 được sử dụng bao gồm `for`,` if`, `switch`,` throw`, v.v ...
 
 Code **Declarative** dựa nhiều hơn vào biểu thức. **Biểu thức** là một đoạn mã đánh giá một số giá trị. Biểu thức thường là một số kết hợp 
